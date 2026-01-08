@@ -1,16 +1,16 @@
 import { dataAIPage } from "@/data/pages/dataAi";
-import HeroSection from "@/sections/Service/pagedesign/HeroSection";
-import WhatWeDoSection from "@/sections/Service/pagedesign/WhatWeDoSection";
-import HowWeHelpSection from "@/sections/Service/pagedesign/HowWeHelpSection";
-import FAQSection from "@/sections/Service/pagedesign/FAQSection";
-import JumpToNav from "@/sections/Service/data-artificial/JumpToNav";
-import MarqueeBanner from "@/sections/Service/data-artificial/MarqueeBanner";
-import AwardsSection from "@/sections/Service/data-artificial/AwardsSection";
-import AIAssessmentBanner from "@/sections/Service/data-artificial/AIAssessmentBanner";
-import InsightsSection from "@/sections/Service/data-artificial/InsightsSection";
-import CustomersSection from "@/sections/Service/data-artificial/CustomersSection";
-import ExpertVoicesSection from "@/sections/Service/data-artificial/ExpertVoicesSection";
-import PartnersSection from "@/sections/Service/data-artificial/PartnersSection";
+import HeroSection from "@/sections/Service/pagedesign/HeroSection.jsx";
+import WhatWeDoSection from "@/sections/Service/pagedesign/WhatWeDoSection.jsx";
+import HowWeHelpSection from "@/sections/Service/pagedesign/HowWeHelpSection.jsx";
+import FAQSection from "@/sections/Service/pagedesign/FAQSection.jsx";
+import JumpToNav from "@/sections/Service/data-artificial/JumpToNav.jsx";
+import MarqueeBanner from "@/sections/Service/data-artificial/MarqueeBanner.jsx";
+import AwardsSection from "@/sections/Service/data-artificial/AwardsSection.jsx";
+import AIAssessmentBanner from "@/sections/Service/data-artificial/AIAssessmentBanner.jsx";
+import InsightsSection from "@/sections/Service/data-artificial/InsightsSection.jsx";
+import CustomersSection from "@/sections/Service/data-artificial/CustomersSection.jsx";
+import ExpertVoicesSection from "@/sections/Service/data-artificial/ExpertVoicesSection.jsx";
+import PartnersSection from "@/sections/Service/data-artificial/PartnersSection.jsx";
 
 const DataAndArtificialPage = () => {
     return (

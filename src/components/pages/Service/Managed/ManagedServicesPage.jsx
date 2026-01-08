@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "@/components/pages/Home/Home";
-import DataAndArtificialPage from "@/components/pages/Service/Data-Artificial/DataAndArtificialPage";
-import CyberSecurity from "@/components/pages/Service/CyberSecurity/CyberSecurity";
-import EmergingTechnologyPage from "@/components/pages/Service/Emerging/EmergingTechnologyPage";
-import DigitalEngineeringManufacturingPage from "@/components/pages/Service/DigitalEM/DigitalEngineeringManufacturingPage";
-import FinanceRiskManagementPage from "@/components/pages/Service/FinanceRisk/FinanceRiskManagementPage";
-import ManagedServicesPage from "@/components/pages/Service/Managed/ManagedServicesPage";
-import StrategyPage from "@/components/pages/Service/Strategy/Strategy";
-import SupplyChainPage from "@/components/pages/Service/SuppyChain/SuppyChain";
-import TechnologyTransformationPage from "@/components/pages/Service/Technology/TechnologyTransformationPage";
-import CloudPage from "@/components/pages/Service/Cloud/CloudPage";
+import Home from "@/components/pages/Home/Home.jsx";
+import DataAndArtificialPage from "@/components/pages/Service/Data-Artificial/DataAndArtificialPage.jsx";
+import CyberSecurity from "@/components/pages/Service/CyberSecurity/CyberSecurity.jsx";
+import EmergingTechnologyPage from "@/components/pages/Service/Emerging/EmergingTechnologyPage.jsx";
+import DigitalEngineeringManufacturingPage from "@/components/pages/Service/DigitalEM/DigitalEngineeringManufacturingPage.jsx";
+import FinanceRiskManagementPage from "@/components/pages/Service/FinanceRisk/FinanceRiskManagementPage.jsx";
+import ManagedServicesPage from "@/components/pages/Service/Managed/ManagedServicesPage.jsx";
+import StrategyPage from "@/components/pages/Service/Strategy/Strategy.jsx";
+import SupplyChainPage from "@/components/pages/Service/SuppyChain/SuppyChain.jsx";
+import TechnologyTransformationPage from "@/components/pages/Service/Technology/TechnologyTransformationPage.jsx";
+import CloudPage from "@/components/pages/Service/Cloud/CloudPage.jsx";
 
 const AppRoutes = () => {
     return (
