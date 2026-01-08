@@ -1,4 +1,4 @@
-import { cloudPage } from "../../../../data/pages/cloud";
+import { cloudPage } from "@/data/pages/cloud";
 import HeroSection from "../../../sections/Service/pagedesign/HeroSection";
 import WhatWeDoSection from "../../../sections/Service/pagedesign/WhatWeDoSection";
 import HowWeHelpSection from "../../../sections/Service/pagedesign/HowWeHelpSection";

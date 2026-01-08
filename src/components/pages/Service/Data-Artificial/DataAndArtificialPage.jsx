@@ -1,4 +1,4 @@
-import { dataAIPage } from "../../../../data/pages/dataAi";
+import { dataAIPage } from "@/data/pages/dataAi";
 import HeroSection from "../../../sections/Service/pagedesign/HeroSection";
 import WhatWeDoSection from "../../../sections/Service/pagedesign/WhatWeDoSection";
 import HowWeHelpSection from "../../../sections/Service/pagedesign/HowWeHelpSection";

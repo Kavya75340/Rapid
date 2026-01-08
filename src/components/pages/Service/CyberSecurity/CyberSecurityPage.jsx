@@ -1,4 +1,4 @@
-import { cybersecurityPage } from "../../../../data/pages/cybersecurity";
+import { cybersecurityPage } from "@/data/pages/cybersecurity";
 import HeroSection from "../../../sections/Service/pagedesign/HeroSection";
 import WhatWeDoSection from "../../../sections/Service/pagedesign/WhatWeDoSection";
 import HowWeHelpSection from "../../../sections/Service/pagedesign/HowWeHelpSection";

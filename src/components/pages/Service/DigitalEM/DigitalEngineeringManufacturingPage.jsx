@@ -1,4 +1,4 @@
-import { digitalEngineeringManufacturingPage } from "../../../../data/pages/digitalEM";
+import { digitalEngineeringManufacturingPage } from "@/data/pages/digitalEM";
 import HeroSection from "../../../sections/Service/pagedesign/HeroSection";
 import WhatWeDoSection from "../../../sections/Service/pagedesign/WhatWeDoSection";
 import HowWeHelpSection from "../../../sections/Service/pagedesign/HowWeHelpSection";
