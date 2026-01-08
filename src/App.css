@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.hero-gradient {
+    background: linear-gradient(135deg, #000000 0%, #002060 100%);
+}
+/* Subtle hover transitions for enterprise feel */
+.enterprise-hover {
+    transition: all 0.3s ease;
+}
+.enterprise-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.link-underline {
+    position: relative;
+}
+.link-underline::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #0052cc;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.link-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
