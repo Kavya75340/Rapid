@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "../components/pages/Home/Home";
+import Home from "@/components/pages/Home/Home";
 import DataAndArtificialPage from "../components/pages/Service/Data-Artificial/DataAndArtificialPage";
 import CyberSecurity from "../components/pages/Service/CyberSecurity/CyberSecurity";
 import EmergingTechnologyPage from "../components/pages/Service/Emerging/EmergingTechnologyPage";

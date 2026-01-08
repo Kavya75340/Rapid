@@ -1,4 +1,4 @@
-import { supplyChainPage } from "../../../../data/pages/supply-chain";
+import { supplyChainPage } from "@/data/pages/supply-chain";
 import HeroSection from "../../../sections/Service/pagedesign/HeroSection";
 import WhatWeDoSection from "../../../sections/Service/pagedesign/WhatWeDoSection";
 import HowWeHelpSection from "../../../sections/Service/pagedesign/HowWeHelpSection";
