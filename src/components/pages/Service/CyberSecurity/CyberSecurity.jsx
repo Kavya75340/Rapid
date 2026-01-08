@@ -1,4 +1,4 @@
-import { dataAIPage } from "../../../../data/pages/data-ai";
+import { cybersecurityPage } from "../../../../data/pages/cybersecurity";
 import HeroSection from "../../../sections/Service/pagedesign/HeroSection";
 import WhatWeDoSection from "../../../sections/Service/pagedesign/WhatWeDoSection";
 import HowWeHelpSection from "../../../sections/Service/pagedesign/HowWeHelpSection";
@@ -12,22 +12,22 @@ import CustomersSection from "../../../sections/Service/data-artificial/Customer
 import ExpertVoicesSection from "../../../sections/Service/data-artificial/ExpertVoicesSection";
 import PartnersSection from "../../../sections/Service/data-artificial/PartnersSection";
 
-const DataAndArtificialPage = () => {
+const CyberSecurity = () => {
     return (
         <>
-            <HeroSection data={dataAIPage.hero} />
+            <HeroSection data={cybersecurityPage.hero} />
             <JumpToNav />
             <MarqueeBanner />
-            <WhatWeDoSection data={dataAIPage.whatWeDo} />
-            <HowWeHelpSection data={dataAIPage.howWeHelp} />
+            <WhatWeDoSection data={cybersecurityPage.whatWeDo} />
+            <HowWeHelpSection data={cybersecurityPage.howWeHelp} />
             <AwardsSection />
             <AIAssessmentBanner />
             <InsightsSection />
             <CustomersSection />
             <ExpertVoicesSection />
             <PartnersSection />
-            <FAQSection data={dataAIPage.faqs} />
+            <FAQSection data={cybersecurityPage.faqs} />
         </>
     );
 };
-export default DataAndArtificialPage;
+export default CyberSecurity;

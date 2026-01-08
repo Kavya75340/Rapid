@@ -1,4 +1,4 @@
-import { dataAIPage } from "../../../../data/pages/data-ai";
+import { supplyChainPage } from "../../../../data/pages/supply-chain";
 import HeroSection from "../../../sections/Service/pagedesign/HeroSection";
 import WhatWeDoSection from "../../../sections/Service/pagedesign/WhatWeDoSection";
 import HowWeHelpSection from "../../../sections/Service/pagedesign/HowWeHelpSection";
@@ -12,22 +12,22 @@ import CustomersSection from "../../../sections/Service/data-artificial/Customer
 import ExpertVoicesSection from "../../../sections/Service/data-artificial/ExpertVoicesSection";
 import PartnersSection from "../../../sections/Service/data-artificial/PartnersSection";
 
-const DataAndArtificialPage = () => {
+const SupplyChainPage = () => {
     return (
         <>
-            <HeroSection data={dataAIPage.hero} />
+            <HeroSection data={supplyChainPage.hero} />
             <JumpToNav />
             <MarqueeBanner />
-            <WhatWeDoSection data={dataAIPage.whatWeDo} />
-            <HowWeHelpSection data={dataAIPage.howWeHelp} />
+            <WhatWeDoSection data={supplyChainPage.whatWeDo} />
+            <HowWeHelpSection data={supplyChainPage.howWeHelp} />
             <AwardsSection />
             <AIAssessmentBanner />
             <InsightsSection />
             <CustomersSection />
             <ExpertVoicesSection />
             <PartnersSection />
-            <FAQSection data={dataAIPage.faqs} />
+            <FAQSection data={supplyChainPage.faqs} />
         </>
     );
 };
-export default DataAndArtificialPage;
+export default SupplyChainPage;

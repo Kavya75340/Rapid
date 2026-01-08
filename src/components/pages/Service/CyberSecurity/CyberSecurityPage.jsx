@@ -1,8 +1,8 @@
 import { cybersecurityPage } from "@/data/pages/cybersecurity";
-import HeroSection from "@/sections/Service/pagedesign/HeroSection.jsx";
-import WhatWeDoSection from "@/sections/Service/pagedesign/WhatWeDoSection.jsx";
-import HowWeHelpSection from "@/sections/Service/pagedesign/HowWeHelpSection.jsx";
-import FAQSection from "@/sections/Service/pagedesign/FAQSection.jsx";
+import HeroSection from "@/sections/Service/PageDesign/HeroSection.jsx";
+import WhatWeDoSection from "@/sections/Service/PageDesign/WhatWeDoSection.jsx";
+import HowWeHelpSection from "@/sections/Service/PageDesign/HowWeHelpSection.jsx";
+import FAQSection from "@/sections/Service/PageDesign/FAQSection.jsx";
 import JumpToNav from "@/sections/Service/data-artificial/JumpToNav.jsx";
 import MarqueeBanner from "@/sections/Service/data-artificial/MarqueeBanner.jsx";
 import AwardsSection from "@/sections/Service/data-artificial/AwardsSection.jsx";

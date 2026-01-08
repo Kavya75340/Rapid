@@ -1,4 +1,4 @@
-import { dataAIPage } from "../../../../data/pages/data-ai";
+import { strategyPage } from "../../../../data/pages/strategy";
 import HeroSection from "../../../sections/Service/pagedesign/HeroSection";
 import WhatWeDoSection from "../../../sections/Service/pagedesign/WhatWeDoSection";
 import HowWeHelpSection from "../../../sections/Service/pagedesign/HowWeHelpSection";
@@ -12,22 +12,22 @@ import CustomersSection from "../../../sections/Service/data-artificial/Customer
 import ExpertVoicesSection from "../../../sections/Service/data-artificial/ExpertVoicesSection";
 import PartnersSection from "../../../sections/Service/data-artificial/PartnersSection";
 
-const DataAndArtificialPage = () => {
+const StrategyPage = () => {
     return (
         <>
-            <HeroSection data={dataAIPage.hero} />
+            <HeroSection data={strategyPage.hero} />
             <JumpToNav />
             <MarqueeBanner />
-            <WhatWeDoSection data={dataAIPage.whatWeDo} />
-            <HowWeHelpSection data={dataAIPage.howWeHelp} />
+            <WhatWeDoSection data={strategyPage.whatWeDo} />
+            <HowWeHelpSection data={strategyPage.howWeHelp} />
             <AwardsSection />
             <AIAssessmentBanner />
             <InsightsSection />
             <CustomersSection />
             <ExpertVoicesSection />
             <PartnersSection />
-            <FAQSection data={dataAIPage.faqs} />
+            <FAQSection data={strategyPage.faqs} />
         </>
     );
 };
-export default DataAndArtificialPage;
+export default StrategyPage;
