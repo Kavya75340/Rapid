@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "@/components/pages/Home/Home";
-import DataAndArtificialPage from "../components/pages/Service/Data-Artificial/DataAndArtificialPage";
-import CyberSecurity from "../components/pages/Service/CyberSecurity/CyberSecurity";
-import EmergingTechnologyPage from "../components/pages/Service/Emerging/EmergingTechnologyPage";
-import DigitalEngineeringManufacturingPage from "../components/pages/Service/DigitalEM/DigitalEngineeringManufacturingPage";
-import FinanceRiskManagementPage from "../components/pages/Service/FinanceRisk/FinanceRiskManagementPage";
-import ManagedServicesPage from "../components/pages/Service/Managed/ManagedServicesPage";
-import StrategyPage from "../components/pages/Service/Strategy/Strategy";
-import SupplyChainPage from "../components/pages/Service/SuppyChain/SuppyChain";
-import TechnologyTransformationPage from "../components/pages/Service/Technology/TechnologyTransformationPage";
-import CloudPage from "../components/pages/Service/Cloud/CloudPage";
+import DataAndArtificialPage from "@/components/pages/Service/Data-Artificial/DataAndArtificialPage";
+import CyberSecurity from "@/components/pages/Service/CyberSecurity/CyberSecurity";
+import EmergingTechnologyPage from "@/components/pages/Service/Emerging/EmergingTechnologyPage";
+import DigitalEngineeringManufacturingPage from "@/components/pages/Service/DigitalEM/DigitalEngineeringManufacturingPage";
+import FinanceRiskManagementPage from "@/components/pages/Service/FinanceRisk/FinanceRiskManagementPage";
+import ManagedServicesPage from "@/components/pages/Service/Managed/ManagedServicesPage";
+import StrategyPage from "@/components/pages/Service/Strategy/Strategy";
+import SupplyChainPage from "@/components/pages/Service/SuppyChain/SuppyChain";
+import TechnologyTransformationPage from "@/components/pages/Service/Technology/TechnologyTransformationPage";
+import CloudPage from "@/components/pages/Service/Cloud/CloudPage";
 
 const AppRoutes = () => {
     return (
