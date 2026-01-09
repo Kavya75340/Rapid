@@ -266,41 +266,47 @@ const MobileMenu = ({ onClose }) => {
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
-            className="fixed inset-0 z-[100] bg-white overflow-y-auto overflow-x-hidden"
+            transition={{ duration: 0.3 }}
+            className="fixed inset-0 z-[100] bg-white overflow-y-auto overflow-x-auto"
         >
-            <div className="flex items-center justify-between px-6 h-[72px] border-b">
+            {/* Header */}
+            <div className="flex w-full items-center justify-between px-6 h-[72px] border-b">
                 <img src={RC_Logo} className="w-36" />
-                <button onClick={onClose}>✕</button>
+                <button onClick={onClose} className="text-2xl">
+                    ✕
+                </button>
             </div>
 
-            <div className="px-6 py-6 space-y-4">
+            {/* Menu */}
+            <div className="w-full px-6 py-6 space-y-4">
                 {NAV_ITEMS.map((item) => (
                     <div key={item.id}>
                         <button
                             onClick={() =>
                                 setActive(active === item.id ? null : item.id)
                             }
-                            className="w-full flex justify-between py-3 font-medium"
+                            className="w-full flex justify-between items-center py-3 text-base font-medium"
                         >
                             {item.label}
+                            <span>{active === item.id ? "−" : "+"}</span>
                         </button>
 
                         <AnimatePresence>
                             {active === item.id && (
                                 <motion.div
-                                    initial={{ height: 0 }}
-                                    animate={{ height: "auto" }}
-                                    exit={{ height: 0 }}
-                                    className="pl-4 overflow-hidden"
+                                    initial={{ height: 0, opacity: 0 }}
+                                    animate={{ height: "auto", opacity: 1 }}
+                                    exit={{ height: 0, opacity: 0 }}
+                                    className="pl-4 space-y-2 overflow-hidden"
                                 >
-                                    {item.links.map((l, i) => (
+                                    {item.links.map((link, i) => (
                                         <a
                                             key={i}
-                                            href={l.href}
+                                            href={link.href}
                                             onClick={onClose}
                                             className="block py-2 text-sm text-slate-600"
                                         >
-                                            {l.title}
+                                            {link.title}
                                         </a>
                                     ))}
                                 </motion.div>
