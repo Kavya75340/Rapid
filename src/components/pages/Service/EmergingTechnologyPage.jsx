@@ -1,16 +1,16 @@
-import { emergingTechnologyPage } from "./pages/emerging-tech";
-import HeroSection from "@/sections/common/HeroSection";
-import WhatWeDoSection from "@/sections/common/WhatWeDoSection";
-import HowWeHelpSection from "@/sections/common/HowWeHelpSection";
-import FAQSection from "@/sections/common/FAQSection";
-import JumpToNav from "@/sections/common/JumpToNav";
-import MarqueeBanner from "@/sections/common/MarqueeBanner";
-import AwardsSection from "@/sections/common/AwardsSection";
-import AIAssessmentBanner from "@/sections/common/AIAssessmentBanner";
-import InsightsSection from "@/sections/common/InsightsSection";
-import CustomersSection from "@/sections/common/CustomersSection";
-import ExpertVoicesSection from "@/sections/common/ExpertVoicesSection";
-import PartnersSection from "@/sections/common/PartnersSection";
+import { emergingTechnologyPage } from "./pages/emerging-tech.jsx";
+import HeroSection from "@/sections/common/HeroSection.jsx";
+import WhatWeDoSection from "@/sections/common/WhatWeDoSection.jsx";
+import HowWeHelpSection from "@/sections/common/HowWeHelpSection.jsx";
+import FAQSection from "@/sections/common/FAQSection.jsx";
+import JumpToNav from "@/sections/common/JumpToNav.jsx";
+import MarqueeBanner from "@/sections/common/MarqueeBanner.jsx";
+import AwardsSection from "@/sections/common/AwardsSection.jsx";
+import AIAssessmentBanner from "@/sections/common/AIAssessmentBanner.jsx";
+import InsightsSection from "@/sections/common/InsightsSection.jsx";
+import CustomersSection from "@/sections/common/CustomersSection.jsx";
+import ExpertVoicesSection from "@/sections/common/ExpertVoicesSection.jsx";
+import PartnersSection from "@/sections/common/PartnersSection.jsx";
 
 const EmergingTechnologyPage = () => {
     return (
