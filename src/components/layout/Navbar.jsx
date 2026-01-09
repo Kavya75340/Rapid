@@ -83,7 +83,7 @@ const HOVER_INTENT_DELAY = 100; // ms
  */
 const Logo = () => (
     <a href="/" className="flex items-center gap-2 group z-50 relative">
-        <img src={RC_Logo} alt="Logo" className="w-60" />
+        <img src={RC_Logo} alt="Logo" className="w-40 lg:w-60" />
     </a>
 );
 
