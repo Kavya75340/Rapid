@@ -95,7 +95,7 @@ const CTAButton = () => {
     const [country, setCountry] = useState("India");
 
     return (
-        <div className="relative hidden lg:inline-block z-20">
+        <div className="relative hidden md:inline-block z-20">
             <button
                 onClick={() => setOpen(!open)}
                 className="inline-flex h-10 items-center justify-center rounded-md bg-slate-900 px-6 py-2 text-sm font-medium text-white transition-colors hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-950"
@@ -134,7 +134,7 @@ const CTAButton = () => {
 
             {/* Dropdown */}
             {open && (
-                <div className="absolute right-0 mt-2 w-32 rounded-md border bg-white shadow-lg">
+                <div className="absolute right-0 mt-2 w-32 rounded-md border bg-white shadow-md">
                     <button
                         onClick={() => {
                             setCountry("India");
@@ -267,10 +267,10 @@ const MobileMenu = ({ onClose }) => {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-[100] bg-white overflow-y-auto"
+            className="fixed inset-0 z-[100] bg-white overflow-y-auto overflow-x-auto"
         >
             {/* Header */}
-            <div className="flex items-center justify-between px-6 h-[72px] border-b">
+            <div className="flex w-full items-center justify-between px-6 h-[72px] border-b">
                 <img src={RC_Logo} className="w-36" />
                 <button onClick={onClose} className="text-2xl">
                     ✕
@@ -278,7 +278,7 @@ const MobileMenu = ({ onClose }) => {
             </div>
 
             {/* Menu */}
-            <div className="px-6 py-6 space-y-4">
+            <div className="w-full px-6 py-6 space-y-4">
                 {NAV_ITEMS.map((item) => (
                     <div key={item.id}>
                         <button
@@ -369,12 +369,12 @@ const Navbar = () => {
             }}
         >
             <div className="max-w-[1440px] mx-auto">
-                <header className="flex items-center justify-between h-[72px] px-6 lg:px-8">
+                <header className="flex items-center justify-between h-[72px] px-6 md:px-8">
                     {/* Logo */}
                     <Logo />
 
                     <div className="relative">
-                        <nav className="hidden lg:flex h-full" ref={menuRef}>
+                        <nav className="hidden md:flex h-full" ref={menuRef}>
                             <div className="flex h-full">
                                 {NAV_ITEMS.map((item) => (
                                     <NavItem
@@ -393,7 +393,7 @@ const Navbar = () => {
                     </div>
                     {/* Mobile Button */}
                     <button
-                        className="lg:hidden border p-2 rounded"
+                        className="md:hidden border p-2 rounded"
                         onClick={() => setMobileOpen(true)}
                     >
                         ☰
