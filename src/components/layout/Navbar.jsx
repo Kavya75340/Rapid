@@ -267,7 +267,7 @@ const MobileMenu = ({ onClose }) => {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-[100] bg-white overflow-y-auto overflow-x-auto"
+            className="fixed inset-0 z-[100] bg-white overflow-y-auto overflow-x-hidden"
         >
             {/* Header */}
             <div className="flex w-full items-center justify-between px-6 h-[72px] border-b">
