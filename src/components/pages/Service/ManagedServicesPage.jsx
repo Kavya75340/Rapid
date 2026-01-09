@@ -1,4 +1,4 @@
-import { managedcommonsPage } from "./pages/managed-s.js";
+import { managedServicesPage } from "./pages/managed-s.js";
 import HeroSection from "./common/HeroSection.jsx";
 import WhatWeDoSection from "./common/WhatWeDoSection.jsx";
 import HowWeHelpSection from "./common/HowWeHelpSection.jsx";
@@ -11,22 +11,22 @@ import InsightsSection from "./common/InsightsSection.jsx";
 import CustomersSection from "./common/CustomersSection.jsx";
 import ExpertVoicesSection from "./common/ExpertVoicesSection.jsx";
 import PartnersSection from "./common/PartnersSection.jsx";
-const ManagedcommonsPage = () => {
+const ManagedServicesPage = () => {
     return (
         <>
-            <HeroSection data={managedcommonsPage.hero} />
+            <HeroSection data={managedServicesPage.hero} />
             <JumpToNav />
             <MarqueeBanner />
-            <WhatWeDoSection data={managedcommonsPage.whatWeDo} />
-            <HowWeHelpSection data={managedcommonsPage.howWeHelp} />
+            <WhatWeDoSection data={managedServicesPage.whatWeDo} />
+            <HowWeHelpSection data={managedServicesPage.howWeHelp} />
             <AwardsSection />
             <AIAssessmentBanner />
             <InsightsSection />
             <CustomersSection />
             <ExpertVoicesSection />
             <PartnersSection />
-            <FAQSection data={managedcommonsPage.faqs} />
+            <FAQSection data={managedServicesPage.faqs} />
         </>
     );
 };
-export default ManagedcommonsPage;
+export default ManagedServicesPage;
