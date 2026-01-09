@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import heroImage from "../../../assets/video4.webm";
+import heroImage from "../../../../assets/video4.webm";
 
 function HeroSection({ data }) {
     return (
