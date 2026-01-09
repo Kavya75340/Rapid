@@ -1,16 +1,16 @@
 import { cybersecurityPage } from "./pages/cybersecurity";
-import HeroSection from "@/sections/service/HeroSection";
-import WhatWeDoSection from "@/sections/service/WhatWeDoSection";
-import HowWeHelpSection from "@/sections/service/HowWeHelpSection";
-import FAQSection from "@/sections/service/FAQSection";
-import JumpToNav from "@/sections/service/JumpToNav";
-import MarqueeBanner from "@/sections/service/MarqueeBanner";
-import AwardsSection from "@/sections/service/AwardsSection";
-import AIAssessmentBanner from "@/sections/service/AIAssessmentBanner";
-import InsightsSection from "@/sections/service/InsightsSection";
-import CustomersSection from "@/sections/service/CustomersSection";
-import ExpertVoicesSection from "@/sections/service/ExpertVoicesSection";
-import PartnersSection from "@/sections/service/PartnersSection";
+import HeroSection from "@/sections/common/HeroSection";
+import WhatWeDoSection from "@/sections/common/WhatWeDoSection";
+import HowWeHelpSection from "@/sections/common/HowWeHelpSection";
+import FAQSection from "@/sections/common/FAQSection";
+import JumpToNav from "@/sections/common/JumpToNav";
+import MarqueeBanner from "@/sections/common/MarqueeBanner";
+import AwardsSection from "@/sections/common/AwardsSection";
+import AIAssessmentBanner from "@/sections/common/AIAssessmentBanner";
+import InsightsSection from "@/sections/common/InsightsSection";
+import CustomersSection from "@/sections/common/CustomersSection";
+import ExpertVoicesSection from "@/sections/common/ExpertVoicesSection";
+import PartnersSection from "@/sections/common/PartnersSection";
 
 const CyberSecurity = () => {
     return (
