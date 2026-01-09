@@ -1,4 +1,4 @@
-import { dataAIPage } from "./pages/data-ai.jsx";
+import { dataAIPage } from "./pages/data-ai.js";
 import HeroSection from "@/sections/common/HeroSection.jsx";
 import WhatWeDoSection from "@/sections/common/WhatWeDoSection.jsx";
 import HowWeHelpSection from "@/sections/common/HowWeHelpSection.jsx";

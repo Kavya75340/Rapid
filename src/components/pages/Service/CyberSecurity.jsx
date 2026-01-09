@@ -1,4 +1,4 @@
-import { cybersecurityPage } from "./pages/cybersecurity.jsx";
+import { cybersecurityPage } from "./pages/cybersecurity.js";
 import HeroSection from "@/sections/common/HeroSection.jsx";
 import WhatWeDoSection from "@/sections/common/WhatWeDoSection.jsx";
 import HowWeHelpSection from "@/sections/common/HowWeHelpSection.jsx";

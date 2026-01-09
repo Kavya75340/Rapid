@@ -1,4 +1,4 @@
-import { digitalEngineeringManufacturingPage } from "./pages/digital-E-M.jsx";
+import { digitalEngineeringManufacturingPage } from "./pages/digital-E-M.js";
 import HeroSection from "@/sections/common/HeroSection.jsx";
 import WhatWeDoSection from "@/sections/common/WhatWeDoSection.jsx";
 import HowWeHelpSection from "@/sections/common/HowWeHelpSection.jsx";

@@ -1,4 +1,4 @@
-import { supplyChainPage } from "./pages/supply-chain.jsx";
+import { supplyChainPage } from "./pages/supply-chain.js";
 import HeroSection from "@/sections/common/HeroSection.jsx";
 import WhatWeDoSection from "@/sections/common/WhatWeDoSection.jsx";
 import HowWeHelpSection from "@/sections/common/HowWeHelpSection.jsx";

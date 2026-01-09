@@ -1,4 +1,4 @@
-import { cloudPage } from "./pages/cloud.jsx";
+import { cloudPage } from "./pages/cloud.js";
 import HeroSection from "@/sections/common/HeroSection.jsx";
 import WhatWeDoSection from "@/sections/common/WhatWeDoSection.jsx";
 import HowWeHelpSection from "@/sections/common/HowWeHelpSection.jsx";
