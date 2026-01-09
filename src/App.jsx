@@ -6,7 +6,7 @@ import Footer from "./components/layout/Footer";
 function App() {
     return (
         <>
-            <div className="min-h-screen flex flex-col">
+            <div className="min-h-screen flex flex-col overflow-x-auto">
                 <Navbar />
                 <main className="flex-grow">
                     <AppRoutes />
