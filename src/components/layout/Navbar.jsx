@@ -95,7 +95,7 @@ const CTAButton = () => {
     const [country, setCountry] = useState("India");
 
     return (
-        <div className="relative hidden md:inline-block z-20">
+        <div className="relative hidden lg:inline-block z-20">
             <button
                 onClick={() => setOpen(!open)}
                 className="inline-flex h-10 items-center justify-center rounded-md bg-slate-900 px-6 py-2 text-sm font-medium text-white transition-colors hover:bg-slate-800 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-950"
@@ -258,6 +258,66 @@ const DropdownPanel = ({ activeItem, onClose }) => {
         </motion.div>
     );
 };
+const MobileMenu = ({ onClose }) => {
+    const [active, setActive] = useState(null);
+
+    return (
+        <motion.div
+            initial={{ x: "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "100%" }}
+            transition={{ duration: 0.3 }}
+            className="fixed inset-0 z-[100] bg-white overflow-y-auto"
+        >
+            {/* Header */}
+            <div className="flex items-center justify-between px-6 h-[72px] border-b">
+                <img src={RC_Logo} className="w-36" />
+                <button onClick={onClose} className="text-2xl">
+                    ✕
+                </button>
+            </div>
+
+            {/* Menu */}
+            <div className="px-6 py-6 space-y-4">
+                {NAV_ITEMS.map((item) => (
+                    <div key={item.id}>
+                        <button
+                            onClick={() =>
+                                setActive(active === item.id ? null : item.id)
+                            }
+                            className="w-full flex justify-between items-center py-3 text-base font-medium"
+                        >
+                            {item.label}
+                            <span>{active === item.id ? "−" : "+"}</span>
+                        </button>
+
+                        <AnimatePresence>
+                            {active === item.id && (
+                                <motion.div
+                                    initial={{ height: 0, opacity: 0 }}
+                                    animate={{ height: "auto", opacity: 1 }}
+                                    exit={{ height: 0, opacity: 0 }}
+                                    className="pl-4 space-y-2 overflow-hidden"
+                                >
+                                    {item.links.map((link, i) => (
+                                        <a
+                                            key={i}
+                                            href={link.href}
+                                            onClick={onClose}
+                                            className="block py-2 text-sm text-slate-600"
+                                        >
+                                            {link.title}
+                                        </a>
+                                    ))}
+                                </motion.div>
+                            )}
+                        </AnimatePresence>
+                    </div>
+                ))}
+            </div>
+        </motion.div>
+    );
+};
 
 /**
  * Main Navigation Bar Component
@@ -265,6 +325,7 @@ const DropdownPanel = ({ activeItem, onClose }) => {
 const Navbar = () => {
     const [hoveredId, setHoveredId] = useState(null);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+    const [mobileOpen, setMobileOpen] = useState(false);
     const menuRef = useRef(null);
     const timeoutRef = useRef(null);
 
@@ -313,7 +374,7 @@ const Navbar = () => {
                     <Logo />
 
                     <div className="relative">
-                        <nav className="hidden md:flex h-full" ref={menuRef}>
+                        <nav className="hidden lg:flex h-full" ref={menuRef}>
                             <div className="flex h-full">
                                 {NAV_ITEMS.map((item) => (
                                     <NavItem
@@ -330,6 +391,13 @@ const Navbar = () => {
                     <div className="flex items-center gap-4">
                         <CTAButton />
                     </div>
+                    {/* Mobile Button */}
+                    <button
+                        className="lg:hidden border p-2 rounded"
+                        onClick={() => setMobileOpen(true)}
+                    >
+                        ☰
+                    </button>
                 </header>
             </div>
 
@@ -344,6 +412,12 @@ const Navbar = () => {
                     )}
                 </AnimatePresence>
             </div>
+            {/* Mobile Menu */}
+            <AnimatePresence>
+                {mobileOpen && (
+                    <MobileMenu onClose={() => setMobileOpen(false)} />
+                )}
+            </AnimatePresence>
         </div>
     );
 };
