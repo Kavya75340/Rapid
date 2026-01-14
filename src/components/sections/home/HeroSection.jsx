@@ -77,7 +77,7 @@ export default function HeroSection() {
     const slide = SLIDES[current];
 
     return (
-        <section className="relative h-[90vh] top-0 bg-enterprise-dark text-white overflow-hidden">
+        <section className="relative h-screen top-0 bg-enterprise-dark text-white overflow-hidden">
             <video
                 className="absolute inset-0 w-full h-full object-cover z-0"
                 src={heroVideo}

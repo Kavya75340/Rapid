@@ -5,7 +5,7 @@ import warli from "../../../assets/image/warlinew2.png";
 const ContactSection = () => {
     return (
         <section className="py-2 bg-[#1065bf]/10">
-            <div className="container mx-auto pl-4 lg:pl-20">
+            <div className="container mx-auto m-5 lg:m-0 pl-4 lg:pl-20">
                 {/* Grid Layout */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     {/* Left Content */}
@@ -18,7 +18,7 @@ const ContactSection = () => {
                             Do you have a specific IT challenge, interest in a
                             career at Rapidcode, or simply want to connect?
                         </p>
-                        <div className="flex flex-col sm:flex-row gap-4">
+                        <div className="flex flex-col sm:flex-row gap-4 mr-3">
                             <Button
                                 size="lg"
                                 className="rounded-none bg-[#0264cf] hover:bg-[#0264cf]/80 text-white"
@@ -26,7 +26,7 @@ const ContactSection = () => {
                             >
                                 <a href="/contact">
                                     Let's talk
-                                    <ArrowRight className="w-4 h-4 ml-2" />
+                                    <ArrowRight className="w-4 h-4 ml-2 " />
                                 </a>
                             </Button>
 
@@ -45,7 +45,7 @@ const ContactSection = () => {
                     </div>
 
                     {/* Right Image */}
-                    <div className="flex justify-center lg:justify-end">
+                    <div className="hidden lg:flex justify-center lg:justify-end">
                         <img
                             src={warli}
                             alt="Contact illustration"
