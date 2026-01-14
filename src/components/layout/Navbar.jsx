@@ -275,10 +275,10 @@ const MobileMenu = ({ onClose }) => {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-[100] bg-white overflow-y-auto overflow-x-hidden"
+            className="fixed inset-0 z-[100] bg-white w-screen"
         >
             {/* Header */}
-            <div className="flex w-full items-center justify-between px-6 h-[72px] border-b">
+            <div className="flex w-screen items-center justify-between px-6 h-[72px] border-b">
                 <img src={RC_Logo} className="w-36" />
                 <button onClick={onClose} className="text-2xl">
                     ✕
@@ -286,7 +286,7 @@ const MobileMenu = ({ onClose }) => {
             </div>
 
             {/* Menu */}
-            <div className="w-full px-6 py-6 space-y-4">
+            <div className="w-screen px-6 py-6 space-y-4">
                 {NAV_ITEMS.map((item) => (
                     <div key={item.id}>
                         <button
@@ -301,7 +301,7 @@ const MobileMenu = ({ onClose }) => {
 
                         <AnimatePresence>
                             {active === item.id && (
-                                <motion.div
+                                <div
                                     initial={{ height: 0, opacity: 0 }}
                                     animate={{ height: "auto", opacity: 1 }}
                                     exit={{ height: 0, opacity: 0 }}
@@ -317,7 +317,7 @@ const MobileMenu = ({ onClose }) => {
                                             {link.title}
                                         </a>
                                     ))}
-                                </motion.div>
+                                </div>
                             )}
                         </AnimatePresence>
                     </div>
