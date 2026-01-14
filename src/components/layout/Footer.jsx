@@ -40,7 +40,7 @@ const socialLinks = [
 const Footer = () => {
     return (
         <footer className="bg-[#53575a] text-white">
-            <div className="max-w-auto ml-2 px-6 py-12">
+            <div className="max-w-auto ml-2 px-6 py-12 overflow-hidden">
                 {/* Top Grid */}
                 <div className="flex items-stretch justify-between mr-10">
                     <a href="/" className="block mb-6">
