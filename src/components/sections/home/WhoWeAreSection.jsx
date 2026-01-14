@@ -38,10 +38,10 @@ const WhoWeAreSection = () => {
                             remain agile, resilient, and competitive.
                         </p>
 
-                        <div className="flex flex-wrap gap-4">
+                        <div className="flex flex-wrap gap-4 ">
                             <Button
                                 variant="outline"
-                                className="rounded-none"
+                                className="rounded-none text-black"
                                 asChild
                             >
                                 <a href="/about">
@@ -55,7 +55,7 @@ const WhoWeAreSection = () => {
                                 className="rounded-none"
                                 asChild
                             >
-                                <a href="/awards">
+                                <a href="/alliance">
                                     Awards And Recognition{" "}
                                     <ArrowRight className="w-4 h-4 ml-2" />
                                 </a>
@@ -66,7 +66,7 @@ const WhoWeAreSection = () => {
                                 className="rounded-none"
                                 asChild
                             >
-                                <a href="/careers">
+                                <a href="/career">
                                     Join Our Team{" "}
                                     <ArrowRight className="w-4 h-4 ml-2" />
                                 </a>
@@ -78,13 +78,12 @@ const WhoWeAreSection = () => {
                     <div className="order-1 lg:order-2">
                         <div className="relative bg-[#114171] overflow-hidden group">
                             <video
-                                key={currentIndex}
                                 src={videos[currentIndex]}
                                 className="w-full h-120 object-cover"
-                                autoPlay={true}
-                                controls={true}
+                                autoPlay
                                 muted
                                 onEnded={handleVideoEnd}
+                                playsInline
                             />
                         </div>
                     </div>

@@ -41,11 +41,20 @@ const NAV_ITEMS = [
         label: "Industries",
         description: "Discover how we transform specific sectors.",
         links: [
-            { title: "Banking & Finance", href: "#" },
-            { title: "Insurance", href: "#" },
-            { title: "Healthcare", href: "#" },
-            { title: "Travel & Transportation", href: "#" },
-            { title: "Utilities", href: "#" },
+            { title: "Aerospace & Defence", href: "/industries/aerospace" },
+            { title: "Automotive", href: "/industries/automotive" },
+            { title: "Banking & Finance", href: "/industries/banking" },
+            { title: "Chemicals", href: "/industries/chemicals" },
+            {
+                title: "Communication & Media",
+                href: "/industries/communication",
+            },
+            { title: "Energy", href: "/industries/energy" },
+            { title: "Healthcare", href: "/industries/healthcare" },
+            { title: "High Tech", href: "/industries/hightech" },
+            { title: "Life Sciences", href: "/industries/lifescience" },
+            { title: "Software & Platforms", href: "/industries/software" },
+            { title: "Travel", href: "/industries/travel" },
         ],
     },
     {
@@ -53,11 +62,10 @@ const NAV_ITEMS = [
         label: "About Us",
         description: "Learn about our heritage, leadership, and values.",
         links: [
-            { title: "About Us", href: "#" },
-            { title: "Alliance", href: "#" },
-            { title: "Career", href: "#" },
-            { title: "Contact Us", href: "#" },
-            { title: "Global Presence", href: "#" },
+            { title: "Alliance", href: "/alliance" },
+            { title: "Career", href: "/career" },
+            { title: "Contact Us", href: "/contact" },
+            { title: "Global Presence", href: "/location" },
         ],
     },
     {
@@ -65,9 +73,9 @@ const NAV_ITEMS = [
         label: "Insights",
         description: "Learn about our heritage, leadership, and values.",
         links: [
-            { title: "Blog", href: "#" },
-            { title: "Case Studies", href: "#" },
-            { title: "White Paper", href: "#" },
+            { title: "Blog", href: "/blog" },
+            { title: "Case Studies", href: "/case-studies" },
+            { title: "White Paper", href: "/whitepaper" },
         ],
     },
 ];
@@ -82,7 +90,7 @@ const HOVER_INTENT_DELAY = 100; // ms
  * Logo Component (Left side)
  */
 const Logo = () => (
-    <a href="/" className="flex items-center gap-2 group z-50 relative">
+    <a href="/" className="flex items-center gap-2 group z-100 relative">
         <img src={RC_Logo} alt="Logo" className="w-40 lg:w-60" />
     </a>
 );

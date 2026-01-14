@@ -6,28 +6,31 @@ const helpItems = [
         title: "Streamline Digital Tansformation",
         description:
             "Rapidcode Consult enables innovation and simplifies digital transformation through strategic visioning, architecture design, and organizational change management.",
-        cta: { text: "Discover Rapidcode Consult", href: "/consulting" },
+        cta: { text: "Discover Rapidcode Consult", href: "/service/strategy" },
     },
     {
         number: "02",
         title: "Navigate Complex Business Challenges",
         description:
             "Our services blend deep industry expertise with modern capabilities and advanced technology to help you overcome business challenges and unlock new growth opportunities.",
-        cta: { text: "Explore our services", href: "/services" },
+        cta: { text: "Explore our services", href: "/service/strategy" },
     },
     {
         number: "03",
         title: "Orchestrate and Transform",
         description:
             "Rapidcode Bridge is an open integration platform built to orchestrate and transform your IT landscape, driving continuous learning and accelerating faster time to value.",
-        cta: { text: "Learn about Rapidcode Bridge", href: "/platform" },
+        cta: {
+            text: "Learn about Rapidcode Bridge",
+            href: "/service/technology",
+        },
     },
     {
         number: "04",
         title: "Empower Hybrid IT Through Strategic Partnerships",
         description:
             "Make confident technology investments through global alliance partnerships that power today’s complex hybrid ecosystems.",
-        cta: { text: "Explore our partners", href: "/partners" },
+        cta: { text: "Explore our partners", href: "/alliance" },
     },
 ];
 

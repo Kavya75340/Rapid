@@ -10,6 +10,22 @@ import StrategyPage from "../components/pages/Service/Strategy";
 import SupplyChainPage from "../components/pages/Service/SuppyChain";
 import TechnologyTransformationPage from "../components/pages/Service/TechnologyTransformationPage";
 import CloudPage from "../components/pages/Service/CloudPage";
+import AerospaceAndDefence from "../components/pages/Industries/AerospaceAndDefence";
+import Career from "../components/pages/AboutUs/Career";
+import Alliance from "../components/pages/AboutUs/Alliance";
+import ContactUs from "../components/pages/AboutUs/ContactUs";
+import GlobalPresence from "../components/pages/AboutUs/GlobalPresence";
+import Automotive from "../components/pages/Industries/Automotive";
+import Banking from "../components/pages/Industries/Banking";
+import Chemical from "../components/pages/Industries/Chemical";
+import Communication from "../components/pages/Industries/Communication";
+import Energy from "../components/pages/Industries/Energy";
+import HealthCare from "../components/pages/Industries/Healthcare";
+import HighTech from "../components/pages/Industries/HighTech";
+import LifeSciences from "../components/pages/Industries/LifeScience";
+import Software from "../components/pages/Industries/Software";
+import Travel from "../components/pages/Industries/Travel";
+import Blogs from "../components/pages/Insight/BlogSection/Blog";
 
 const AppRoutes = () => {
     return (
@@ -43,6 +59,29 @@ const AppRoutes = () => {
                 path="/service/technology"
                 element={<TechnologyTransformationPage />}
             />
+            <Route
+                path="/industries/aerospace"
+                element={<AerospaceAndDefence />}
+            />
+            <Route path="/industries/automotive" element={<Automotive />} />
+            <Route path="/industries/banking" element={<Banking />} />
+            <Route path="/industries/chemicals" element={<Chemical />} />
+            <Route
+                path="/industries/communication"
+                element={<Communication />}
+            />
+            <Route path="/industries/energy" element={<Energy />} />
+            <Route path="/industries/healthcare" element={<HealthCare />} />
+            <Route path="/industries/hightech" element={<HighTech />} />
+            <Route path="/industries/lifescience" element={<LifeSciences />} />
+            <Route path="/industries/software" element={<Software />} />
+            <Route path="/industries/travel" element={<Travel />} />
+
+            <Route path="/career" element={<Career />} />
+            <Route path="/alliance" element={<Alliance />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/location" element={<GlobalPresence />} />
+            <Route path="/blog" element={<Blogs />} />
         </Routes>
     );
 };

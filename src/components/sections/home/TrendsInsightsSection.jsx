@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 
-const categories = ["Corporate", "Cyber resilience", "Data & AI", "Hybrid IT"];
+const categories = ["Corporate", "Cyber Resilience", "Data & AI"];
 
 const insights = {
     Corporate: [
@@ -10,16 +10,16 @@ const insights = {
             title: "Are you prepared for future risks and technology transformation?",
             description:
                 "Business leaders worldwide trust their current technology, yet remain concerned it may not be fully prepared for future risks and opportunities.",
-            cta: { text: "Read the 2024 report", href: "/reports/readiness" },
+            cta: { text: "Read the 2026 report", href: "/service/strategy" },
         },
     ],
-    "Cyber resilience": [
+    "Cyber Resilience": [
         {
             id: 2,
             title: "How zero trust enables banks to adapt",
             description:
                 "Many banks and financial services providers are adopting a zero trust model. Often defined as deny by default, zero trust enforces stronger controls over asset access",
-            cta: { text: "Read the article", href: "/articles/zero-trust" },
+            cta: { text: "Read the article", href: "/service/cyber-security" },
         },
     ],
     "Data & AI": [
@@ -28,16 +28,7 @@ const insights = {
             title: "The next major evolution of automotive telematics",
             description:
                 "Telematics is driving significant progress across the automotive industry, spanning vehicle design and supply chain optimization to enhanced driver safety.",
-            cta: { text: "Read the article", href: "/articles/telematics" },
-        },
-    ],
-    "Hybrid IT": [
-        {
-            id: 4,
-            title: "3 ways to revive hospital IT systems",
-            description:
-                "Back-office operations are critical to patient care and hospital financial health, yet their IT systems are often outdated and exposed.",
-            cta: { text: "Read the article", href: "/articles/hospital-it" },
+            cta: { text: "Read the article", href: "/service/data-ai" },
         },
     ],
 };
@@ -105,17 +96,17 @@ const TrendsInsightsSection = () => {
                             Featured
                         </span>
                         <h3 className="mt-2 text-xl font-semibold text-foreground">
-                            Rapidcode recognized as a Global Top 100 Most Loved
-                            Workplace for the second year
+                            Rapidcode recognized as one of the most Reliable
+                            Workplace offering top-notch services globally
                         </h3>
                         <p className="mt-2 text-muted-foreground">
                             Rapidcode cultivates a dynamic, service-driven
-                            workplace through “The Rapidcode Way,” strengthening
+                            workplace through “OKR Strategy,” strengthening
                             collaboration, delivering value, and enabling global
                             knowledge exchange.
                         </p>
                         <a
-                            href="/news/most-loved-workplace"
+                            href="/alliance"
                             className="inline-flex items-center gap-2 text-[#0070e0] font-medium mt-4 hover:underline"
                         >
                             Learn more

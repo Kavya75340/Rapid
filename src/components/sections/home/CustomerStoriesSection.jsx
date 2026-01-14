@@ -9,21 +9,18 @@ const stories = [
         id: 1,
         category: "IT modernization",
         title: "CreditAccess Grameen digitized its loan platform, accelerating services for 2.5 million rural borrowers and strengthening their economic growth",
-        href: "/customer-stories/grameen",
         imageUrl: itImg,
     },
     {
         id: 2,
         category: "Cloud transformation",
         title: "Global retailer realized a 40% cost reduction through intelligent cloud migration and automated infrastructure management",
-        href: "/customer-stories/retail",
         imageUrl: cloudImg,
     },
     {
         id: 3,
         category: "AI implementation",
         title: "Healthcare provider enhanced patient outcomes by 35% through AI-powered diagnostics and predictive analytics",
-        href: "/customer-stories/healthcare",
         imageUrl: aiImg,
     },
 ];
@@ -87,13 +84,13 @@ const CustomerStoriesSection = () => {
 
                         <div className="mt-6 flex gap-4">
                             <a
-                                href={currentStory.href}
+                                href={"/case-studies"}
                                 className="inline-flex items-center gap-2 text-[#0070e0] font-medium hover:underline"
                             >
                                 Highlights
                             </a>
                             <a
-                                href={currentStory.href}
+                                href={"/case-studies"}
                                 className="inline-flex items-center gap-2 text-[#0070e0] font-medium hover:underline"
                             >
                                 Read full story

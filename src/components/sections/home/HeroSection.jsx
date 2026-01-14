@@ -10,6 +10,7 @@ const SLIDES = [
         description:
             "Leverage advanced analytics to drive operational efficiency. We combine industry expertise with data-led insights to optimize your business processes and reduce risk.",
         cta: "Explore Solutions",
+        href: "/service/cloud",
     },
     {
         id: 2,
@@ -18,6 +19,7 @@ const SLIDES = [
         description:
             "By operating your mission-critical platforms internally and harnessing our deep sector expertise, we reinvent your business to lead tomorrow with confidence.",
         cta: "View AI Capabilities",
+        href: "/service/data-ai",
     },
     {
         id: 3,
@@ -26,6 +28,7 @@ const SLIDES = [
         description:
             "Harness advanced AI solutions to modernize operations and accelerate sustainable growth.",
         cta: "Meet Our Experts",
+        href: "/service/cyber-security",
     },
 ];
 
@@ -60,32 +63,6 @@ const ProgressBar = ({ active, onClick }) => (
     />
 );
 
-const AbstractVisual = () => (
-    <div className="relative w-full h-full flex items-center justify-center">
-        <div className="absolute inset-0 bg-gradient-to-tr from-enterprise-orange/10 to-blue-600/10 blur-[100px] animate-pulse-glow"></div>
-
-        <div className="relative w-64 h-64 lg:w-96 lg:h-96 animate-float">
-            <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl border border-white/10 rotate-45 rounded-2xl shadow-2xl flex items-center justify-center">
-                <div className="w-3/4 h-3/4 border border-enterprise-orange/30 rounded-lg p-4 flex flex-col justify-between">
-                    <div className="h-1 w-1/3 bg-enterprise-orange/50 rounded-full" />
-                    <div className="space-y-2">
-                        <div className="h-1 w-full bg-white/20 rounded-full" />
-                        <div className="h-1 w-2/3 bg-white/20 rounded-full" />
-                    </div>
-                    <div className="flex justify-between items-end">
-                        <div className="text-enterprise-orange font-bold text-xl">
-                            01
-                        </div>
-                        <div className="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center">
-                            <div className="w-2 h-2 bg-enterprise-orange rounded-full" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-);
-
 export default function HeroSection() {
     const [current, setCurrent] = useState(0);
 
@@ -118,7 +95,7 @@ export default function HeroSection() {
                     </span>
                     <TextType
                         key={slide.id} // 🔥 THIS IS THE FIX
-                        className="text-4xl md:text-6xl xl:text-7xl font-bold mb-6"
+                        className="text-4xl md:text-5xl xl:text-6xl font-bold mb-6 h-40"
                         text={slide.title}
                         typingSpeed={100}
                         pauseDuration={4000}
@@ -132,12 +109,18 @@ export default function HeroSection() {
                     </p>
 
                     <div className="flex gap-4">
-                        <button className="px-8 py-4 border border-enterprise-orange text-enterprise-orange hover:bg-enterprise-orange hover:text-white transition">
+                        <a
+                            className="px-8 py-4 border border-white/20 hover:bg-white/10 hover:text-white transition"
+                            href={slide.href}
+                        >
                             {slide.cta}
-                        </button>
-                        <button className="px-8 py-4 border border-white/20 hover:bg-white/10 transition">
+                        </a>
+                        <a
+                            className="px-8 py-4 border border-white/20 hover:bg-white/10 transition"
+                            href={slide.href}
+                        >
                             Learn More
-                        </button>
+                        </a>
                     </div>
                 </div>
 
