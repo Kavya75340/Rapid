@@ -6,7 +6,7 @@ const HeroSection = ({ data }) => {
     );
 
     return (
-        <section className="relative min-h-[90vh] flex">
+        <section className="relative min-h-screen flex">
             {/* Background */}
             <div
                 className="absolute inset-0 bg-cover bg-center"
