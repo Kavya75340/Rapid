@@ -40,9 +40,9 @@ const socialLinks = [
 const Footer = () => {
     return (
         <footer className="bg-[#53575a] text-white">
-            <div className="max-w-auto ml-2 px-6 py-12 overflow-hidden">
+            <div className="max-w-auto mx-auto px-6 py-12 overflow-hidden">
                 {/* Top Grid */}
-                <div className="flex items-stretch justify-between mr-10">
+                <div className="flex items-stretch justify-between lg:mr-10">
                     <a href="/" className="block mb-6">
                         <img
                             src={RC_Logo}
@@ -67,7 +67,7 @@ const Footer = () => {
                 <div className="grid grid-cols-12 gap-2">
                     {/* LEFT SIDE (Logo + Space) */}
                     <div className="col-span-12 lg:col-span-4">
-                        <p className="text-sm text-white/70 mb-6 ml-15 w-sm">
+                        <p className="text-sm text-white/70 mb-6 lg:ml-15 w-sm">
                             We enable enterprises to accelerate growth and
                             resilience by harnessing the power of data,
                             artificial intelligence, and advanced digital
@@ -80,7 +80,7 @@ const Footer = () => {
                     </div>
 
                     {/* RIGHT SIDE LINKS */}
-                    <div className="col-span-12 lg:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-5 ml-30">
+                    <div className="col-span-12 lg:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-5 lg:ml-30">
                         {/* Company */}
                         <div>
                             <h4 className="font-bold mb-4 text-lg">Company</h4>
