@@ -1,0 +1,18 @@
+import HeroSection from "./alliance-sections/HeroSection";
+import CTASection from "./alliance-sections/CTASection";
+import CustomerStorySection from "./alliance-sections/CustomerStorySection";
+import NewsSection from "./alliance-sections/NewsSection";
+import PartnersSection from "./alliance-sections/PartnersSection";
+
+const Alliance = () => {
+    return (
+        <>
+            <HeroSection />
+            <PartnersSection />
+            <CustomerStorySection />
+            <NewsSection />
+            <CTASection />
+        </>
+    );
+};
+export default Alliance;
