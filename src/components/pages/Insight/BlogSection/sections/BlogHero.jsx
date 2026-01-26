@@ -21,7 +21,7 @@ const heroCards = [
 
 const BlogHero = () => {
     return (
-        <section className="relative min-h-[90vh] lg:min-h-screen flex overflow-hidden">
+        <section className="relative min-h-[90vh] lg:min-h-screen flex flex-col lg:flex-row overflow-hidden">
             <video
                 className="absolute inset-0 w-full h-full object-cover z-0"
                 src={heroImage}
@@ -92,7 +92,7 @@ const BlogHero = () => {
             </div>
 
             {/* RIGHT DESKTOP CARDS */}
-            <div className="hidden lg:flex w-[35%] bg-gray-800/50 flex-col z-10">
+            <div className="flex lg:w-[35%] w-full bg-gray-800/50 flex-col z-10">
                 {heroCards.map((card, index) => (
                     <a
                         key={index}

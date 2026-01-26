@@ -21,7 +21,7 @@ const heroCards = [
 
 const CaseStudiesHero = () => {
     return (
-        <section className="relative min-h-[90vh] lg:min-h-screen flex overflow-hidden">
+        <section className="relative min-h-[90vh] lg:min-h-screen flex flex-col lg:flex-row overflow-hidden">
             {/* LEFT IMAGE AREA */}
             <video
                 className="absolute inset-0 w-full h-full object-cover z-0"
@@ -31,7 +31,7 @@ const CaseStudiesHero = () => {
                 muted
                 playsInline
             />
-            <div className="relative w-full lg:w-[65%] flex items-stretch">
+            <div className="relative w-full lg:w-[65%] flex  items-stretch">
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
 
@@ -93,7 +93,7 @@ const CaseStudiesHero = () => {
             </div>
 
             {/* RIGHT DESKTOP CARDS */}
-            <div className="hidden lg:flex w-[35%] bg-gray-700/80 flex-col z-20">
+            <div className="flex lg:w-[35%] w-full bg-gray-700/80 flex-col z-20">
                 {heroCards.map((card, index) => (
                     <a
                         key={index}
