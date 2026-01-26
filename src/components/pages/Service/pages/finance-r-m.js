@@ -95,9 +95,19 @@ export const financeRiskManagementPage = {
       {
         question: "What are finance and risk management services?",
         answer:
-          "Finance and risk management services help organizations manage financial performance, mitigate risk, ensure compliance, and drive sustained business value.",
+          "Finance and risk management services enable organizations to optimize financial performance, control exposure, maintain compliance, and strengthen long-term business value.",
       },
-    ],
+      {
+        question: "Why do enterprises invest in finance and risk solutions?",
+        answer:
+          "Enterprises adopt finance and risk solutions to improve financial visibility, reduce operational vulnerabilities, enhance governance, and support confident decision-making.",
+      },
+      {
+        question: "How can we start with finance and risk modernization?",
+        answer:
+          "Teams can begin finance and risk modernization by assessing existing processes, defining control priorities, selecting the right frameworks, and implementing a phased strategy aligned with business objectives.",
+      },
+    ]    
   },
 
   /* ================= INSIGHTS ================= */

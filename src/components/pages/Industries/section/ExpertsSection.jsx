@@ -93,11 +93,11 @@ function ExpertsSection({ data }) {
                     <div className="lg:col-span-5">
                         <div className="sticky top-0 bg-white p-10 text-center w-full h-full">
                             <div className="w-28 h-28 mx-auto rounded-full bg-gradient-to-br from-primary to-blue-400 flex items-center justify-center text-white text-3xl font-semibold mb-6">
-                                {data.expert.initials}
+                                RS
                             </div>
 
                             <h3 className="text-xl font-medium text-foreground">
-                                {data.expert.name}
+                                Ritesham Shastri
                             </h3>
 
                             <p className="mt-1 text-muted-foreground text-sm">

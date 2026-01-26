@@ -94,7 +94,17 @@ export const supplyChainPage = {
       {
         question: "What are supply chain services?",
         answer:
-          "Supply chain services help organizations design, manage, and optimize end-to-end supply chains to improve resilience, efficiency, and sustained business value.",
+          "Supply chain services enable organizations to design, operate, and optimize end-to-end supply networks to enhance resilience, efficiency, and long-term business value.",
+      },
+      {
+        question: "Why do companies invest in supply chain optimization?",
+        answer:
+          "Organizations invest in supply chain optimization to reduce disruptions, improve visibility, streamline logistics, and ensure reliable delivery performance across global operations.",
+      },
+      {
+        question: "How can we start with supply chain transformation?",
+        answer:
+          "Teams can begin supply chain transformation by assessing current workflows, identifying critical gaps, selecting the right optimization tools, and implementing a phased roadmap aligned with business priorities.",
       },
     ],
   },

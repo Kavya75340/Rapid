@@ -95,7 +95,17 @@ export const strategyPage = {
       {
         question: "What are strategy and consulting services?",
         answer:
-          "Strategy and consulting services help organizations define direction, optimize execution, manage risk, and drive sustainable business growth.",
+          "Strategy and consulting services enable organizations to shape direction, enhance execution, manage risks, and accelerate sustainable business growth.",
+      },
+      {
+        question: "Why do companies invest in strategy and consulting?",
+        answer:
+          "Organizations invest in strategy and consulting to gain clarity on market opportunities, streamline operations, strengthen competitiveness, and make evidence-driven decisions.",
+      },
+      {
+        question: "How can we start with strategy and consulting engagement?",
+        answer:
+          "Teams can begin a strategy and consulting engagement by assessing current challenges, defining business priorities, selecting the right advisory model, and implementing a roadmap aligned with long-term objectives.",
       },
     ],
   },

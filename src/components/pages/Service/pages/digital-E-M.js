@@ -95,9 +95,20 @@ export const digitalEngineeringManufacturingPage = {
       {
         question: "What are digital engineering and manufacturing services?",
         answer:
-          "Digital engineering and manufacturing services help organizations modernize products, factories, and operations to improve efficiency, resilience, and sustained business value.",
+          "Digital engineering and manufacturing services enable organizations to upgrade products, modernize factories, and streamline operations to enhance efficiency, resilience, and long-term business value.",
       },
-    ],
+      {
+        question: "Why do enterprises adopt digital engineering?",
+        answer:
+          "Enterprises adopt digital engineering to accelerate product innovation, reduce operational bottlenecks, strengthen production quality, and achieve scalable manufacturing outcomes.",
+      },
+      {
+        question: "How can we start with digital engineering transformation?",
+        answer:
+          "Teams can begin digital engineering transformation by assessing current processes, defining modernization priorities, selecting the right technologies, and executing a phased roadmap aligned with business goals.",
+      },
+    ]
+    
   },
 
   /* ================= INSIGHTS ================= */

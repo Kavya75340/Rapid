@@ -1,9 +1,9 @@
 import { useState } from "react";
 import CaseStudiesFilter from "./section/CaseStudiesFilter";
 import CaseStudiesHero from "./section/CaseStudiesHero";
-import FeaturedCaseStudy from "./section/FeaturedCaseStudy";
 import IndustryShowcase from "./section/IndustryShowcase";
 import CaseStudiesGrid from "./section/CaseStudiesGrid";
+import Featured from "../Featured";
 
 const CaseStudies = () => {
     const [filters, setFilters] = useState({
@@ -15,7 +15,7 @@ const CaseStudies = () => {
         <>
             <CaseStudiesHero />
             <CaseStudiesFilter onFilterChange={setFilters} />
-            <FeaturedCaseStudy />
+            <Featured />
             <IndustryShowcase />
             <CaseStudiesGrid filters={filters} />
         </>

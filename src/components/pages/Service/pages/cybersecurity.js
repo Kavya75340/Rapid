@@ -94,9 +94,20 @@ export const cyberSecurityPage = {
       {
         question: "What are cybersecurity services?",
         answer:
-          "Cybersecurity services help organizations protect systems, data, and operations while improving resilience, compliance, and sustained business value.",
+          "Cybersecurity services enable organizations to secure systems, safeguard data, and fortify operations while strengthening resilience, compliance, and long-term business value.",
       },
-    ],
+      {
+        question: "Why do businesses invest in cybersecurity?",
+        answer:
+          "Companies invest in cybersecurity to prevent breaches, reduce operational risks, maintain customer trust, and ensure uninterrupted performance across digital environments.",
+      },
+      {
+        question: "How can we start with cybersecurity implementation?",
+        answer:
+          "Teams can begin cybersecurity implementation by assessing vulnerabilities, defining protection priorities, selecting the right security framework, and executing a phased rollout aligned with business goals.",
+      },
+    ]
+    
   },
 
   /* ================= INSIGHTS ================= */

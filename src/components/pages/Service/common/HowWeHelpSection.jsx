@@ -8,11 +8,11 @@ function HowWeHelpSection({ data }) {
             <div className="container mx-auto px-4 lg:px-8">
                 {/* Header */}
                 <div className="mb-12">
-                    <span className="text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4 block">
+                    <span className="text-sm font-bold text-muted-foreground uppercase tracking-wider mb-4 block">
                         {data.sectionMeta.eyebrow}
                     </span>
 
-                    <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
+                    <h2 className="text-3xl md:text-4xl font-medium text-foreground mb-8">
                         {data.sectionMeta.heading}
                     </h2>
 

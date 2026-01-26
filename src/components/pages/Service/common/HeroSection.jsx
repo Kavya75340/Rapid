@@ -42,7 +42,7 @@ function HeroSection({ data }) {
             </div>
 
             {/* Right Cards – Desktop */}
-            {/* <div className="hidden lg:flex w-[35%] bg-black/70 flex-col z-20">
+            <div className="hidden lg:flex w-[35%] bg-black/70 flex-col z-20">
                 {data.cards.map((card, index) => (
                     <a
                         key={index}
@@ -58,7 +58,7 @@ function HeroSection({ data }) {
                         </span>
                     </a>
                 ))}
-            </div> */}
+            </div>
 
             {/* Mobile Card */}
             {/* <div className="lg:hidden absolute bottom-0 left-0 right-0 bg-primary">

@@ -95,7 +95,17 @@ export const technologyTransformationPage = {
       {
         question: "What is technology transformation?",
         answer:
-          "Technology transformation helps organizations modernize systems, processes, and platforms to improve agility, efficiency, and long-term business value.",
+          "Technology transformation enables organizations to modernize systems, upgrade processes, and evolve platforms to enhance agility, efficiency, and long-term business value.",
+      },
+      {
+        question: "Why do enterprises prioritize technology transformation?",
+        answer:
+          "Enterprises prioritize technology transformation to reduce legacy constraints, accelerate innovation, strengthen security, and deliver better digital experiences at scale.",
+      },
+      {
+        question: "How can we start with technology transformation?",
+        answer:
+          "Teams can begin technology transformation by evaluating existing architectures, defining modernization goals, selecting suitable technologies, and executing a structured roadmap aligned with business objectives.",
       },
     ],
   },

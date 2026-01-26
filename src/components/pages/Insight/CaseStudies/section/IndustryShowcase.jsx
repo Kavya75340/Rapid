@@ -64,7 +64,7 @@ const industries = [
 const IndustryShowcase = () => {
     return (
         <section className="py-16 lg:py-24 bg-white">
-            <div className="max-w-7xl mx-auto px-4 lg:px-8">
+            <div className="max-w-full mx-auto px-4 lg:px-8">
                 {/* Header */}
                 <div className="text-center mb-12">
                     <span className="text-sm font-medium text-blue-600 uppercase tracking-wider mb-4 block">
@@ -88,7 +88,7 @@ const IndustryShowcase = () => {
                             <a
                                 key={industry.name}
                                 href={industry.href}
-                                className="group p-6 bg-white border border-gray-200 rounded-xl hover:shadow-lg hover:border-blue-500/30 transition-all text-center"
+                                className="group p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:border-blue-500/30 transition-all text-center"
                             >
                                 <div
                                     className={`w-14 h-14 rounded-full ${industry.color} flex items-center justify-center mx-auto mb-4`}

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import heroImage from "@/assets/video/hero1.mp4";
 
 const HeroSection = ({ data }) => {
     const [activeItem, setActiveItem] = useState(
@@ -7,13 +8,21 @@ const HeroSection = ({ data }) => {
 
     return (
         <section className="relative min-h-screen flex">
+            <video
+                className="absolute inset-0 w-full h-full object-cover z-0"
+                src={heroImage}
+                autoPlay
+                loop
+                muted
+                playsInline
+            />
             {/* Background */}
-            <div
+            {/* <div
                 className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: `url(${data.backgroundImage})` }}
+                // style={{ backgroundImage: `url(${data.backgroundImage})` }}
             >
-                <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent" />
-            </div>
+            </div> */}
+            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
 
             {/* Left */}
             <div className="relative z-10 px-8 lg:px-16 py-32">

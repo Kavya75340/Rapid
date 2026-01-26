@@ -94,9 +94,20 @@ export const emergingTechPage = {
       {
         question: "What are emerging technology services?",
         answer:
-          "Emerging technology services help organizations adopt, manage, and scale new technologies to improve agility, efficiency, and sustained business value.",
+          "Emerging technology services enable organizations to embrace, operationalize, and scale next-generation technologies to enhance agility, efficiency, and long-term business value.",
       },
-    ],
+      {
+        question: "Why do companies invest in emerging technologies?",
+        answer:
+          "Organizations invest in emerging technologies to drive innovation, automate key processes, strengthen competitiveness, and unlock new revenue opportunities across digital ecosystems.",
+      },
+      {
+        question: "How can we start with emerging technology adoption?",
+        answer:
+          "Teams can begin emerging technology adoption by analyzing current capabilities, identifying high-impact use cases, selecting the right platforms, and executing a phased strategy aligned with business goals.",
+      },
+    ]
+    
   },
 
   /* ================= INSIGHTS ================= */

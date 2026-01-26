@@ -25,10 +25,11 @@ import HighTech from "../components/pages/Industries/HighTech";
 import LifeSciences from "../components/pages/Industries/LifeScience";
 import Software from "../components/pages/Industries/Software";
 import Travel from "../components/pages/Industries/Travel";
-import Blog from "../components/pages/Insight/BlogSection/Blog";
 import AboutUs from "../components/pages/AboutUs/AboutUs";
 import SingleBlog from "../components/pages/Insight/BlogSection/SingleBlog";
 import CaseStudies from "../components/pages/Insight/CaseStudies/CaseStudies";
+import BlogPage from "../components/pages/Insight/BlogSection/BlogPage";
+import WhitePaper from "../components/pages/Insight/WhitePaper/WhitePaper";
 
 const AppRoutes = () => {
     return (
@@ -85,9 +86,10 @@ const AppRoutes = () => {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/location" element={<GlobalPresence />} />
             <Route path="/about" element={<AboutUs />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<SingleBlog />} />
             <Route path="/case-studies" element={<CaseStudies />} />
+            <Route path="/whitepaper" element={<WhitePaper />} />
         </Routes>
     );
 };

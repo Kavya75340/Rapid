@@ -94,9 +94,20 @@ export const managedServicesPage = {
       {
         question: "What are managed services?",
         answer:
-          "Managed services enable organizations to outsource, operate, and optimize IT environments to improve reliability, efficiency, and sustained business value.",
+          "Managed services enable organizations to outsource, run, and enhance IT environments to strengthen reliability, improve efficiency, and deliver long-term business value.",
       },
-    ],
+      {
+        question: "Why do companies rely on managed service models?",
+        answer:
+          "Organizations rely on managed service models to reduce operational overhead, ensure continuous availability, improve security posture, and scale IT operations without complexity.",
+      },
+      {
+        question: "How can we start with managed services adoption?",
+        answer:
+          "Teams can begin managed services adoption by evaluating current IT operations, identifying support gaps, selecting the right service model, and deploying a phased approach aligned with business goals.",
+      },
+    ]
+    
   },
 
   /* ================= INSIGHTS ================= */

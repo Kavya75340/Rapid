@@ -1,9 +1,9 @@
 import { ArrowRight } from "lucide-react";
-import heroImage from "@/assets/case-studies/case-study-hero.jpg"; // adjust path as per your project
+import heroImage from "@/assets/video/hero5.mp4"; // adjust path as per your project
 
 const heroCards = [
     {
-        title: "40% reduction in operational costs with AI-powered automation",
+        title: "38% reduction in operational costs with AI-powered automation",
         link: "Read case study",
         href: "/case-studies/healthcare",
     },
@@ -23,13 +23,15 @@ const CaseStudiesHero = () => {
     return (
         <section className="relative min-h-[90vh] lg:min-h-screen flex overflow-hidden">
             {/* LEFT IMAGE AREA */}
+            <video
+                className="absolute inset-0 w-full h-full object-cover z-0"
+                src={heroImage}
+                autoPlay
+                loop
+                muted
+                playsInline
+            />
             <div className="relative w-full lg:w-[65%] flex items-stretch">
-                <img
-                    src={heroImage}
-                    alt="Case studies hero"
-                    className="absolute inset-0 w-full h-full object-cover"
-                />
-
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
 
@@ -57,14 +59,14 @@ const CaseStudiesHero = () => {
                     {/* Subtitle */}
                     <p className="text-lg md:text-xl text-white/90 max-w-lg">
                         Discover how leading organizations are transforming
-                        their businesses with RapidCode’s innovative solutions.
+                        their businesses with Rapidcode’s innovative solutions.
                     </p>
 
                     {/* STATS */}
                     <div className="flex flex-wrap gap-10 mt-10">
                         <div>
                             <span className="text-4xl font-bold text-white">
-                                500+
+                                100+
                             </span>
                             <p className="text-white/70 text-sm mt-1">
                                 Success Stories
@@ -72,7 +74,7 @@ const CaseStudiesHero = () => {
                         </div>
                         <div>
                             <span className="text-4xl font-bold text-white">
-                                45+
+                                5+
                             </span>
                             <p className="text-white/70 text-sm mt-1">
                                 Countries
@@ -80,7 +82,7 @@ const CaseStudiesHero = () => {
                         </div>
                         <div>
                             <span className="text-4xl font-bold text-white">
-                                98%
+                                99%
                             </span>
                             <p className="text-white/70 text-sm mt-1">
                                 Client Satisfaction
@@ -91,7 +93,7 @@ const CaseStudiesHero = () => {
             </div>
 
             {/* RIGHT DESKTOP CARDS */}
-            <div className="hidden lg:flex w-[35%] bg-gray-700/80 flex-col">
+            <div className="hidden lg:flex w-[35%] bg-gray-700/80 flex-col z-20">
                 {heroCards.map((card, index) => (
                     <a
                         key={index}

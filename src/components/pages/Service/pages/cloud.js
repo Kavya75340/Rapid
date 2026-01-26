@@ -94,9 +94,20 @@ export const cloudPage = {
       {
         question: "What are cloud services?",
         answer:
-          "Cloud services help organizations build, manage, and optimize cloud environments to improve agility, efficiency, and long-term business value.",
+          "Cloud services empower enterprises to create, govern, and scale cloud ecosystems, enabling higher agility, operational excellence, and sustainable business impact.",
       },
-    ],
+      {
+        question: "Why do companies rely on cloud transformation?",
+        answer:
+          "Businesses adopt cloud transformation to accelerate innovation, reduce infrastructure overhead, strengthen security, and unlock faster time-to-market advantages.",
+      },
+      {
+        question: "How can we start with cloud adoption?",
+        answer:
+          "Teams can begin cloud adoption by assessing current workloads, defining migration priorities, selecting the right cloud strategy, and executing a phased rollout aligned with business goals.",
+      },
+    ]
+    
   },
 
   /* ================= INSIGHTS ================= */

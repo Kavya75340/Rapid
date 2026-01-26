@@ -52,8 +52,8 @@ export const aerospaceAndDefence = {
     description: "Explore insights from Rapidcode expert, Alex Johnson.",
 
     expert: {
-      initials: "AJ",
-      name: "Alex Johnson",
+      initials: "VS",
+      name: "Ritesham Shastri",
       role: "Vice President",
       department: "Aerospace & Defence Technology",
       company: "Rapidcode",

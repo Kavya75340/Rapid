@@ -94,9 +94,20 @@ export const dataAIPage = {
       {
         question: "What are data and AI services?",
         answer:
-          "Data and AI services help organizations collect, manage, and transform data into intelligent insights that drive agility, efficiency, and sustained business value.",
+          "Data and AI services enable organizations to capture, organize, and convert data into actionable intelligence that accelerates agility, operational efficiency, and long-term business value.",
       },
-    ],
+      {
+        question: "Why do companies invest in data and AI solutions?",
+        answer:
+          "Businesses adopt data and AI solutions to optimize decision-making, automate workflows, enhance customer experiences, and unlock new growth opportunities through predictive insights.",
+      },
+      {
+        question: "How can we start with data and AI initiatives?",
+        answer:
+          "Teams can begin data and AI initiatives by evaluating existing data maturity, setting clear analytics objectives, choosing the right platforms, and implementing a phased roadmap aligned with business priorities.",
+      },
+    ]
+    
   },
 
   /* ================= INSIGHTS ================= */
