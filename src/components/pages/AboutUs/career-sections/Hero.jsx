@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
     return (
         <section className="relative overflow-hidden bg-secondary">
-            <div className="max-w-7xl mx-20">
+            <div className="max-w-full lg:mx-20">
                 <div className="grid lg:grid-cols-2 gap-0">
                     {/* Content */}
                     <div className="flex flex-col justify-center px-6 py-16 lg:py-24 lg:px-12">
@@ -18,8 +18,8 @@ const Hero = () => {
                         </p>
 
                         <div className="mt-8">
-                            <button className="group inline-flex items-center bg-gray-600 hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-semibold rounded-md transition">
-                                Search professional jobs
+                            <button className="group inline-flex items-center bg-gray-600 hover:bg-primary/90 text-primary-foreground lg:px-8 p-4 lg:py-6 text-lg font-semibold rounded-md transition">
+                                Search Jobs
                                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                             </button>
                         </div>

@@ -37,7 +37,7 @@ const WhitePapersHero = () => {
                 <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
 
                 {/* CONTENT */}
-                <div className="relative z-10 flex flex-col justify-center px-6 lg:px-16 py-24 lg:py-32">
+                <div className="relative z-10 flex flex-col justify-center px-6 lg:px-16 py-12 lg:py-32">
                     {/* Breadcrumb */}
                     <div className="mb-6 text-sm text-white/80">
                         <a
@@ -53,12 +53,12 @@ const WhitePapersHero = () => {
                     </div>
 
                     {/* Title */}
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white max-w-xl leading-tight mb-6">
+                    <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white max-w-xl leading-tight mb-6">
                         Strategic Technology White Papers
                     </h1>
 
                     {/* Subtitle */}
-                    <p className="text-lg md:text-xl text-white/90 max-w-lg">
+                    <p className="text-sm md:text-xl text-white/90 max-w-lg">
                         Gain actionable insights on digital innovation, cloud,
                         data, and AI through Rapidcode’s expert research.
                     </p>
@@ -66,26 +66,26 @@ const WhitePapersHero = () => {
                     {/* STATS */}
                     <div className="flex flex-wrap gap-10 mt-10">
                         <div>
-                            <span className="text-4xl font-bold text-white">
+                            <span className="text-xl lg:text-4xl font-bold text-white">
                                 50+
                             </span>
-                            <p className="text-white/70 text-sm mt-1">
+                            <p className="text-white/70 text-xs mt-1">
                                 Published White Papers
                             </p>
                         </div>
                         <div>
-                            <span className="text-4xl font-bold text-white">
+                            <span className="text-xl lg:text-4xl font-bold text-white">
                                 10+
                             </span>
-                            <p className="text-white/70 text-sm mt-1">
+                            <p className="text-white/70 text-xs mt-1">
                                 Industry Verticals
                             </p>
                         </div>
                         <div>
-                            <span className="text-4xl font-bold text-white">
+                            <span className="text-xl lg:text-4xl font-bold text-white">
                                 Global
                             </span>
-                            <p className="text-white/70 text-sm mt-1">
+                            <p className="text-white/70 text-xs mt-1">
                                 Enterprise Reach
                             </p>
                         </div>
@@ -111,23 +111,6 @@ const WhitePapersHero = () => {
                         </span>
                     </a>
                 ))}
-            </div>
-
-            {/* MOBILE CARD */}
-            <div className="lg:hidden absolute bottom-0 left-0 right-0 bg-gray-700">
-                <a
-                    href={heroCards[0].href}
-                    className="block p-6 border-t border-white/10"
-                >
-                    <h3 className="text-lg font-semibold text-white mb-2">
-                        {heroCards[0].title}
-                    </h3>
-
-                    <span className="text-sm text-white/70 inline-flex items-center">
-                        {heroCards[0].link}
-                        <ArrowRight className="ml-2 w-4 h-4" />
-                    </span>
-                </a>
             </div>
         </section>
     );

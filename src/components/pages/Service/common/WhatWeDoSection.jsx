@@ -6,7 +6,7 @@ function WhatWeDoSection({ data }) {
             className="py-20 lg:py-0 lg:pl-10 bg-background"
         >
             <div className="container mx-auto px-4 lg:px-8">
-                <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <div className="grid lg:grid-cols-2 lg:gap-20 items-center">
                     {/* Left Content */}
                     <div>
                         <span className="text-sm font-bold text-muted-foreground uppercase tracking-wider mb-4 block">
@@ -23,7 +23,7 @@ function WhatWeDoSection({ data }) {
 
                     {/* Right – Video */}
 
-                    <div className="overflow-hidden flex items-center justify-center w-full ml-5 p-5">
+                    <div className="overflow-hidden flex items-center justify-center w-full lg:ml-5 p-5">
                         <img
                             src={whoweImg}
                             alt="who-we-are"

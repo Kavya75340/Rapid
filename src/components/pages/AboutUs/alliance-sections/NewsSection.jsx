@@ -30,10 +30,12 @@ const NewsSection = () => {
             <div className="container mx-auto">
                 {/* Section Header */}
                 <div className="flex items-center justify-between mb-12">
-                    <h2 className="section-heading">Rapidcode partner news</h2>
+                    <h2 className="text-4xl font-bold">
+                        Rapidcode Partner News
+                    </h2>
                     <a
                         href="#"
-                        className="link-blue font-medium hover:underline hidden md:block"
+                        className="link-blue font-bold hover:underline hidden md:block"
                     >
                         See all articles
                     </a>

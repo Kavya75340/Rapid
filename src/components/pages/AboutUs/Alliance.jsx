@@ -3,6 +3,7 @@ import CTASection from "./alliance-sections/CTASection";
 import CustomerStorySection from "./alliance-sections/CustomerStorySection";
 import NewsSection from "./alliance-sections/NewsSection";
 import PartnersSection from "./alliance-sections/PartnersSection";
+import MarqueeBanner from "./MarqueeBanner";
 
 const Alliance = () => {
     return (
@@ -12,6 +13,7 @@ const Alliance = () => {
             <CustomerStorySection />
             <NewsSection />
             <CTASection />
+            <MarqueeBanner />
         </>
     );
 };

@@ -40,7 +40,7 @@ const HeroSection = ({ data }) => {
             </div>
 
             {/* Right Accordion */}
-            <div className="ml-auto w-[40%] bg-black/80 z-20">
+            <div className="hidden lg:block ml-auto w-[40%] bg-black/80 z-20">
                 {data.accordionItems.map((item) => (
                     <div key={item.id} className="border-b border-white/10">
                         <button

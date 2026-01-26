@@ -21,7 +21,7 @@ const WhoWeAreSection = () => {
             <div className="container mx-auto ">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                     {/* Left Content */}
-                    <div className="order-2 lg:order-1 px-8">
+                    <div className="order-2 lg:order-1 px-8 p-8">
                         <span className="text-[#1065bf] text-sm font-medium uppercase tracking-wider">
                             Who we are
                         </span>
@@ -79,7 +79,7 @@ const WhoWeAreSection = () => {
                         <div className="relative bg-[#114171] overflow-hidden group">
                             <video
                                 src={videos[currentIndex]}
-                                className="w-full h-120 object-cover"
+                                className="w-full lg:h-120 object-cover"
                                 autoPlay
                                 muted
                                 onEnded={handleVideoEnd}

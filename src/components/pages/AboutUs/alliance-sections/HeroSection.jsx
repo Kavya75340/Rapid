@@ -4,10 +4,10 @@ import heroImage from "@/assets/hero-business.jpg";
 const HeroSection = () => {
     return (
         <section className="hero-section">
-            <div className="container mx-auto lg:pl-12 bg-gray-200">
+            <div className="container mx-auto lg:pl-12 pt-5 lg:pt-0  bg-gray-200">
                 <div className="grid lg:grid-cols-2 gap-8 items-center min-h-[80vh]">
                     {/* Left Content */}
-                    <div className="space-y-6 animate-fade-in ">
+                    <div className="space-y-6 animate-fade-in m-7">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-hero-text leading-tight">
                             Rapidcode Global Strategic Alliances
                         </h1>

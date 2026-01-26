@@ -41,7 +41,7 @@ const FAQSection = () => {
 
     return (
         <section id="faq" className="py-16 lg:py-24 bg-secondary">
-            <div className="flex max-w-full mx-auto px-6 lg:px-8">
+            <div className="flex lg:flex-row flex-col max-w-full mx-auto px-6 lg:px-8">
                 {/* Header */}
                 <div className="text-left mb-12">
                     <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-primary">

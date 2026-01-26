@@ -62,7 +62,7 @@ const JumpToNav = () => {
                             onClick={() => scrollToSection(item.id)}
                             className={`px-4 py-2 text-sm font-medium whitespace-nowrap rounded-full transition-all ${
                                 activeSection === item.id
-                                    ? "bg-primary text-primary-foreground"
+                                    ? "bg-[#e9f2f9] text-black"
                                     : "text-muted-foreground hover:text-primary hover:bg-secondary"
                             }`}
                         >

@@ -102,7 +102,7 @@ const PartnersSection = () => {
             <div className="container mx-auto">
                 {/* Header */}
                 <div className="mb-12">
-                    <h5 className="text-sm font-semibold mb-4">
+                    <h5 className="text-3xl font-semibold mb-4">
                         Explore our growing ecosystem of partners
                     </h5>
                     <p className="text-muted-foreground max-w-4xl">

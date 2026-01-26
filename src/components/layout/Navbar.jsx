@@ -121,7 +121,11 @@ const CTAButton = ({ isCountryOpen, setIsCountryOpen }) => {
 
                 {country}
 
-                <svg className="ml-2 h-4 w-4" viewBox="0 0 20 20">
+                <svg
+                    className="ml-2 h-4 w-4"
+                    stroke="currentColor"
+                    viewBox="0 0 20 20"
+                >
                     <path d="M5.293 7.293L10 10.586l4.707-3.293" />
                 </svg>
             </button>

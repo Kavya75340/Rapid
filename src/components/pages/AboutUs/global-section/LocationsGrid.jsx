@@ -44,10 +44,10 @@ const LocationsGrid = () => {
                     {locations.map((location, index) => (
                         <article
                             key={location.id}
-                            className=""
+                            className="mb-10 lg:mb-0"
                             style={{ animationDelay: `${index * 100}ms` }}
                         >
-                            <h3 className="text-lg font-semibold text-foreground mb-4">
+                            <h3 className="text-lg font-semibold text-foreground mb-1">
                                 {location.country}
                             </h3>
                             <div className="w-12 h-1 bg-primary mb-6" />

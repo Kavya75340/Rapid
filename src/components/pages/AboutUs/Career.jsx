@@ -18,7 +18,7 @@ const Career = () => {
             <BecomeSection />
             <LifeSection />
             <TeamsSection />
-            <AwardsSection />
+            {/* <AwardsSection /> */}
             <ResumeSection />
             <NewsSection />
             <FAQSection />

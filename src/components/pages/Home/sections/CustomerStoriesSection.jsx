@@ -1,16 +1,16 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, ArrowRight } from "lucide-react";
-import itImg from "@/assets/image/It.webp";
+// import itImg from "@/assets/image/It.webp";
 import cloudImg from "@/assets/image/645479.webp";
 import aiImg from "@/assets/image/Ai.webp";
 
 const stories = [
-    {
-        id: 1,
-        category: "IT modernization",
-        title: "CreditAccess Grameen digitized its loan platform, accelerating services for 1 million rural borrowers and strengthening their economic growth",
-        imageUrl: itImg,
-    },
+    // {
+    //     id: 1,
+    //     category: "IT modernization",
+    //     title: "CreditAccess Grameen digitized its loan platform, accelerating services for 1 million rural borrowers and strengthening their economic growth",
+    //     imageUrl: itImg,
+    // },
     {
         id: 2,
         category: "Cloud transformation",

@@ -3,7 +3,7 @@ import { ArrowRight, Linkedin } from "lucide-react";
 const experts = [
     {
         id: 1,
-        name: "Yash Vardhan",
+        name: "Ritesham Shastri",
         title: "Director, Rapidcode India",
         topic: "Indian companies dominate AI investment and IT readiness",
         description:
