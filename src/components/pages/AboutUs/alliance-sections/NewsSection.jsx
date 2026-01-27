@@ -6,20 +6,20 @@ import newsAws from "@/assets/news-aws.jpg";
 const newsItems = [
     {
         image: newsCloud,
-        category: "Alliances and partnerships",
-        title: "How Rapidcode cloud solutions help power customer success",
+        category: "Strategic Alliance Network",
+        title: "How Rapidcode’s cloud ecosystem fuels breakthrough customer's outcomes",
         date: "Article | 08-Jan-2026",
     },
     {
         image: newsAlliance,
-        category: "Alliances and partnerships",
-        title: "How Rapidcode's alliance strategy accelerates enterprise transformation",
+        category: "Innovation Partnerships",
+        title: "How Rapidcode’s partner-led strategy accelerates large-scale enterprise evolution",
         date: "Article | 09-Dec-2025",
     },
     {
         image: newsAws,
-        category: "Alliances and partnerships",
-        title: "Rapidcode and AWS: Driving innovation through partnership",
+        category: "Partner Ecosystem",
+        title: "Rapidcode × AWS: Advancing industry innovation through strategic collaboration",
         date: "Article | 03-Dec-2025",
     },
 ];

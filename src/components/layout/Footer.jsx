@@ -11,24 +11,24 @@ const footerLinks = {
         { title: "Sustainability", href: "/sustainability" },
     ],
     solutions: [
-        { title: "AI-Powered Operations", href: "/ai-operations" },
+        { title: "AI-Powered Operations", href: "/service/data-ai" },
         { title: "Artificial Intelligence", href: "/ai" },
         { title: "Data Modernization", href: "/data-modernization" },
         { title: "Digital Transformation", href: "/digital-transformation" },
     ],
     industries: [
-        { title: "Banking & Capital Markets", href: "/banking" },
-        { title: "Energy", href: "/energy" },
-        { title: "Healthcare", href: "/healthcare" },
-        { title: "Insurance", href: "/insurance" },
-        { title: "Retail", href: "/retail" },
+        { title: "Banking & Finance", href: "/industries/banking" },
+        { title: "Energy", href: "/industries/energy" },
+        { title: "Healthcare", href: "/industries/healthcare" },
+        { title: "Life Sciences", href: "/industries/lifescience" },
+        { title: "Travel", href: "/industries/travel" },
     ],
     resources: [
-        { title: "Careers", href: "/careers" },
+        { title: "Alliance", href: "/alliance" },
+        { title: "Careers", href: "/career" },
         { title: "Case Studies", href: "/case-studies" },
         { title: "Contact", href: "/contact" },
-        { title: "Events", href: "/events" },
-        { title: "Insights", href: "/insights" },
+        { title: "Insights", href: "/blog" },
     ],
 };
 

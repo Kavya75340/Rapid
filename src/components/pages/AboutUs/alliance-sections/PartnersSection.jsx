@@ -4,56 +4,56 @@ import { ChevronRight } from "lucide-react";
 const industries = [
     {
         name: "Aerospace & Defence",
-        logo: "https://www.svgrepo.com/show/533972/airplane.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/plane.svg",
     },
     {
         name: "Automotive",
-        logo: "https://www.svgrepo.com/show/533718/car.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/car.svg",
     },
     {
         name: "Banking & Finance",
-        logo: "https://www.svgrepo.com/show/533361/bank.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/landmark.svg",
     },
     {
         name: "Chemicals",
-        logo: "https://www.svgrepo.com/show/533556/lab.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/test-tube.svg",
     },
     {
         name: "Communication & Media",
-        logo: "https://www.svgrepo.com/show/533208/chat.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/message-circle.svg",
     },
     {
         name: "Energy",
-        logo: "https://www.svgrepo.com/show/532620/energy.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/bolt.svg",
     },
     {
         name: "Healthcare",
-        logo: "https://www.svgrepo.com/show/533431/health.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/heart-pulse.svg",
     },
     {
         name: "High Tech",
-        logo: "https://www.svgrepo.com/show/533509/cpu.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cpu.svg",
     },
     {
         name: "Life Sciences",
-        logo: "https://www.svgrepo.com/show/533660/dna.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/dna.svg",
     },
     {
         name: "Software & Platforms",
-        logo: "https://www.svgrepo.com/show/533197/cloud.svg",
+        logo: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cloud.svg",
     },
 ];
 
 const PartnersSection = () => {
     const [selectedPartner, setSelectedPartner] = useState(null);
 
-    const handlePartnerClick = (partner) => {
-        if (!partner.hasDetails) return;
+    // const handlePartnerClick = (partner) => {
+    //     if (!partner.hasDetails) return;
 
-        setSelectedPartner(
-            selectedPartner?.name === partner.name ? null : partner
-        );
-    };
+    //     setSelectedPartner(
+    //         selectedPartner?.name === partner.name ? null : partner
+    //     );
+    // };
 
     return (
         <section className="py-16 px-6 lg:px-12 bg-background">
@@ -72,18 +72,19 @@ const PartnersSection = () => {
 
                 {/* Partners Grid */}
                 <div className="flex flex-wrap items-center justify-center gap-12 lg:gap-20">
-                    {partners.map((partner) => (
-                        <a
-                            key={partner.name}
+                    {industries.map((industry) => (
+                        <div
+                            key={industry.name}
                             href="#"
-                            className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                            className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 align-center flex flex-col gap-4"
                         >
                             <img
-                                src={partner.logo}
-                                alt={partner.name}
+                                src={industry.logo}
+                                alt={industry.name}
                                 className="h-10 lg:h-20 w-auto object-contain"
                             />
-                        </a>
+                            <p className="text-xl">{industry.name}</p>
+                        </div>
                     ))}
                 </div>
 

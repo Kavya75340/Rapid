@@ -18,7 +18,7 @@ const CustomerStorySection = () => {
                     {/* Content */}
                     <div className="space-y-6 animate-fade-in">
                         <span className="text-sm text-muted-foreground uppercase tracking-wider">
-                            Customer story
+                            Featured customer story
                         </span>
 
                         <h2 className="section-heading">TechCorp Global</h2>

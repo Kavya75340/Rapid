@@ -9,14 +9,14 @@ const HeroSection = () => {
                     {/* Left Content */}
                     <div className="space-y-6 animate-fade-in m-7">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-hero-text leading-tight">
-                            Rapidcode Global Strategic Alliances
+                            Rapidcode Global Alliances Strategy
                         </h1>
 
                         <p className="text-lg text-hero-subtext max-w-xl leading-relaxed">
-                            The freedom to harness extraordinary potential with
-                            our alliances and partnerships unleashes decades of
-                            mission-critical IT expertise and technology for our
-                            customers
+                            The freedom to unlock exceptional value through our
+                            alliances and partnerships activates decades of
+                            mission-critical IT expertise and technology for
+                            customers globally
                         </p>
                     </div>
 

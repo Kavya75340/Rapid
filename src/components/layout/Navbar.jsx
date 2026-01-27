@@ -131,7 +131,7 @@ const CTAButton = ({ isCountryOpen, setIsCountryOpen }) => {
             </button>
 
             {isCountryOpen && (
-                <div className="absolute right-0 mt-2 w-32 rounded-md border bg-white shadow-md z-50">
+                <div className="absolute right-0 mt-0 w-32 rounded-md border bg-white shadow-md z-50">
                     <button
                         onClick={() => {
                             setCountry("India");
