@@ -1,89 +1,47 @@
 import { useState } from "react";
 import { ChevronRight } from "lucide-react";
 
-const partners = [
-    { name: "AWS", hasDetails: false },
-    { name: "Cisco", hasDetails: false },
+const industries = [
     {
-        name: "Cloudera",
-        hasDetails: true,
-        description:
-            "Rapidcode and Cloudera are working together to deliver accelerated, large-scale data-driven transformations and unique, customized offerings and expertise to customers across multiple industries, environments, and geographies.",
-        solutions: [
-            "Data Modernization",
-            "Data Platform Management",
-            "Data Advisory Services",
-        ],
-        related: [
-            {
-                title: "Rapidcode and Cloudera collaborate to recommend strategies to achieve a data-driven transformation",
-                link: "#",
-            },
-            {
-                title: "Rapidcode and Cloudera Announce Global Partnership to Accelerate Customer Data Transformation",
-                link: "#",
-            },
-        ],
+        name: "Aerospace & Defence",
+        logo: "https://www.svgrepo.com/show/533972/airplane.svg",
     },
-    { name: "Cloudflare", hasDetails: false },
-    { name: "Cohesity", hasDetails: false },
     {
-        name: "Databricks",
-        hasDetails: true,
-        description:
-            "Rapidcode and Databricks partner to accelerate digital transformation, combining Rapidcode's AI and data services with the Databricks Data Intelligence Platform.",
-        solutions: [
-            "Data modernization",
-            "Data migration",
-            "Lakehouse data management on AWS and Azure",
-            "AI Adoption Services",
-        ],
-        related: [
-            {
-                title: "Rapidcode's Global Strategic Alliance set to drive digital transformation",
-                link: "#",
-            },
-        ],
+        name: "Automotive",
+        logo: "https://www.svgrepo.com/show/533718/car.svg",
     },
-    { name: "Dell", hasDetails: false },
     {
-        name: "Dynatrace",
-        hasDetails: true,
-        description:
-            "Rapidcode and Dynatrace are partnering to enhance cloud, application modernization and AIOps offerings.",
-        solutions: [
-            "Enhanced AIOps",
-            "Unified Observability",
-            "Application Modernization Services",
-        ],
-        related: [
-            {
-                title: "Rapidcode and Dynatrace Announce Global Alliance to Enhance Insights",
-                link: "#",
-            },
-        ],
+        name: "Banking & Finance",
+        logo: "https://www.svgrepo.com/show/533361/bank.svg",
     },
-    { name: "Elastic", hasDetails: false },
-    { name: "Google Cloud", hasDetails: false },
     {
-        name: "IBM",
-        hasDetails: true,
-        description: "Rapidcode and IBM partnership for hybrid cloud and AI.",
-        solutions: [],
-        related: [],
+        name: "Chemicals",
+        logo: "https://www.svgrepo.com/show/533556/lab.svg",
     },
-    { name: "Microsoft", hasDetails: false },
     {
-        name: "NVIDIA",
-        hasDetails: true,
-        description: "Rapidcode and NVIDIA accelerate generative AI adoption.",
-        solutions: [],
-        related: [],
+        name: "Communication & Media",
+        logo: "https://www.svgrepo.com/show/533208/chat.svg",
     },
-    { name: "Oracle", hasDetails: false },
-    { name: "SAP", hasDetails: false },
-    { name: "ServiceNow", hasDetails: false },
-    { name: "VMWare", hasDetails: false },
+    {
+        name: "Energy",
+        logo: "https://www.svgrepo.com/show/532620/energy.svg",
+    },
+    {
+        name: "Healthcare",
+        logo: "https://www.svgrepo.com/show/533431/health.svg",
+    },
+    {
+        name: "High Tech",
+        logo: "https://www.svgrepo.com/show/533509/cpu.svg",
+    },
+    {
+        name: "Life Sciences",
+        logo: "https://www.svgrepo.com/show/533660/dna.svg",
+    },
+    {
+        name: "Software & Platforms",
+        logo: "https://www.svgrepo.com/show/533197/cloud.svg",
+    },
 ];
 
 const PartnersSection = () => {
@@ -103,34 +61,29 @@ const PartnersSection = () => {
                 {/* Header */}
                 <div className="mb-12">
                     <h5 className="text-3xl font-semibold mb-4">
-                        Explore our growing ecosystem of partners
+                        Explore our expanding partner ecosystem
                     </h5>
                     <p className="text-muted-foreground max-w-4xl">
-                        At Rapidcode, we co-create with alliances that matter
-                        most to our customers across all technology stacks.
+                        At Rapidcode, we co-innovate with strategic alliances
+                        that deliver the greatest impact for our customers,
+                        spanning the full breadth of modern technology stacks.
                     </p>
                 </div>
 
                 {/* Partners Grid */}
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-8">
-                    {partners.map((partner, index) => (
-                        <div
-                            key={index}
-                            onClick={() => handlePartnerClick(partner)}
-                            className={`partner-logo-card ${
-                                partner.hasDetails
-                                    ? "cursor-pointer"
-                                    : "cursor-default"
-                            } ${
-                                selectedPartner?.name === partner.name
-                                    ? "border-primary bg-muted"
-                                    : ""
-                            }`}
+                <div className="flex flex-wrap items-center justify-center gap-12 lg:gap-20">
+                    {partners.map((partner) => (
+                        <a
+                            key={partner.name}
+                            href="#"
+                            className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
                         >
-                            <span className="text-sm font-medium text-center">
-                                {partner.name}
-                            </span>
-                        </div>
+                            <img
+                                src={partner.logo}
+                                alt={partner.name}
+                                className="h-10 lg:h-20 w-auto object-contain"
+                            />
+                        </a>
                     ))}
                 </div>
 
