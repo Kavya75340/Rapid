@@ -40,13 +40,13 @@ const ExpertiseSection = () => {
                 {/* Header */}
                 <div className="mb-12">
                     <span className="text-[#0070e0] text-sm font-medium uppercase tracking-wider">
-                        rapidcode expertise
+                        rapidcode proficiency
                     </span>
                     <h2 className="mt-4 text-3xl lg:text-4xl font-light text-foreground">
-                        Trusted. Experienced. Skilled.
+                        Experienced. Reliable. Capable
                     </h2>
                     <p className="mt-4 text-muted-foreground max-w-2xl">
-                        People are Rapidcode’s strength. For over 20 years, they
+                        People are Rapidcode’s strength. For over 15 years, they
                         have leveraged deep domain expertise and relentless
                         curiosity to build and deliver innovation.
                     </p>

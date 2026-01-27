@@ -24,7 +24,7 @@ const CultureCareersSection = () => {
         <section className="py-16 lg:py-24 bg-[#01284e] text-white">
             <div className="container mx-auto px-4 lg:px-8">
                 <h2 className="text-3xl lg:text-4xl font-light mb-12">
-                    Let's get there together
+                    Let's Move Forward Together
                 </h2>
 
                 <div className="grid md:grid-cols-2 gap-8">

@@ -70,7 +70,7 @@ const QASection = () => {
             <div className="container mx-auto px-4 lg:px-8">
                 <div className="mb-12">
                     <span className="text-muted-foreground text-sm">
-                        Answers to questions about
+                        Answers to Essential Questions
                     </span>
                     <h2 className="mt-2 text-3xl lg:text-4xl text-[#1065bf] font-bold text-foreground">
                         Rapidcode

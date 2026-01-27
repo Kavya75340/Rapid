@@ -47,10 +47,10 @@ const CustomerStoriesSection = () => {
                 {/* Header */}
                 <div className="mb-12">
                     <span className="text-[#2a86c7]/100 text-sm font-medium uppercase tracking-wider">
-                        stories that inspire
+                        stories that enable growth
                     </span>
                     <h2 className="mt-4 text-3xl lg:text-4xl font-light text-foreground">
-                        Customer Stories
+                        Client Stories
                     </h2>
                     <p className="mt-4 text-lg text-muted-foreground">
                         Driving progress for every customers
