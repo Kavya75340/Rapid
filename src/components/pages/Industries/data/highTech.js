@@ -1,4 +1,4 @@
-export const highTech = {
+export const hightech = {
   /* ================= HERO WITH ACCORDION ================= */
   heroAccordion: {
       badge: "Software Development",

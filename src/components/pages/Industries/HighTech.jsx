@@ -1,4 +1,4 @@
-import { highTech } from "./data/hightech.js";
+import { hightech } from "./data/hightech.js";
 import CTASection from "./common/CTASection";
 import ExpertsSection from "./section/ExpertsSection";
 import HeroSection from "./section/HeroSection";
