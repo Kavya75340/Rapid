@@ -7,16 +7,16 @@ const ContactSection = () => {
         <section className="py-2 bg-[#1065bf]/10">
             <div className="container mx-auto m-5 lg:m-0 pl-4 lg:pl-20">
                 {/* Grid Layout */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div className="flex flex-col lg:flex-row gap-12 items-center justify-between">
                     {/* Left Content */}
-                    <div className="max-w-xl">
+                    <div>
                         <h2 className="text-3xl lg:text-4xl font-light text-foreground mb-4">
-                            Connect with us
+                            Talk with us
                         </h2>
 
                         <p className="text-muted-foreground text-lg mb-8">
-                            Do you have a specific IT challenge, interest in a
-                            career at Rapidcode, or simply want to connect?
+                            Do you have a defined IT challenge, interest in a
+                            career at Rapidcode, or wish to connect today?
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 mr-3">
                             <Button
@@ -45,7 +45,7 @@ const ContactSection = () => {
                     </div>
 
                     {/* Right Image */}
-                    <div className="hidden lg:flex justify-center lg:justify-end">
+                    <div className="hidden lg:flex justify-end">
                         <img
                             src={warli}
                             alt="Contact illustration"

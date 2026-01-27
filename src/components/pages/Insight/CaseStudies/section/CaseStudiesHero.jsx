@@ -31,7 +31,7 @@ const CaseStudiesHero = () => {
                 muted
                 playsInline
             />
-            <div className="relative w-full lg:w-[65%] flex  items-stretch">
+            <div className="relative w-full lg:w-[65%] flex items-stretch">
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
 
