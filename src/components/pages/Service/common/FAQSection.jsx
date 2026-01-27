@@ -10,7 +10,7 @@ function FAQSection({ data }) {
         <section id="qa" className="py-20 lg:py-28 bg-background">
             <div className="container mx-0 w-full px-4 lg:px-20">
                 <h2 className="text-2xl md:text-5xl font-bold text-foreground mb-8 text-center">
-                    {data.sectionMeta.heading}
+                    Your Questions. Our Answeres.
                 </h2>
 
                 <Accordion type="single" collapsible className="w-full">

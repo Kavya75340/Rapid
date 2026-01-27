@@ -36,7 +36,7 @@ function CustomersSection() {
                         Our customers
                     </span>
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-                        We're invested in customer success
+                        We focus on customer success
                     </h2>
                 </div>
 
