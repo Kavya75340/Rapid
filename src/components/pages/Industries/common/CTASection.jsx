@@ -11,7 +11,7 @@ const CTASection = () => {
                     transition={{ duration: 0.6 }}
                 >
                     <h2 className="text-3xl lg:text-7xl font-light text-blue-300 mb-8">
-                        Take the next step
+                        Move the next step
                     </h2>
                 </motion.div>
             </div>
