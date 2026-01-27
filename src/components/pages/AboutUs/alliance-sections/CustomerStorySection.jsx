@@ -21,23 +21,19 @@ const CustomerStorySection = () => {
                             Featured customer story
                         </span>
 
-                        <h2 className="section-heading">TechCorp Global</h2>
+                        <h2 className="section-heading">
+                            A Global Surveillance and Embedded Company
+                        </h2>
 
                         <p className="text-muted-foreground leading-relaxed">
-                            TechCorp partnered with Rapidcode to transform their
-                            corporate device program, providing more choice in
-                            type and timing of selection. Rapidcode manages the
-                            global fleet to reduce issues for groups of users,
-                            proactively offering available fixes through
-                            cloud-based distribution.
+                            A Global Surveillance and Embedded Company partnered
+                            with Rapidcode to transform their corporate device
+                            program, providing more choice in type and timing of
+                            selection. Rapidcode manages the global fleet to
+                            reduce issues for groups of users, proactively
+                            offering available fixes through cloud-based
+                            distribution.
                         </p>
-
-                        <a
-                            href="#"
-                            className="link-blue font-medium inline-block hover:underline"
-                        >
-                            See more
-                        </a>
                     </div>
                 </div>
             </div>
