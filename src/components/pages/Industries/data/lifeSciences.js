@@ -47,11 +47,11 @@ export const lifeSciences = {
   expertsQA: {
       eyebrow: "Industry experts",
       heading: "Our experts, your challenges",
-      description: "Read the Q&A with Rapidcode expert, Alex Johnson.",
+      description: "Read the Q&A with Rapidcode expert, Ritesham Shastri.",
 
       expert: {
-          initials: "AJ",
-          name: "Alex Johnson",
+          initials: "RS",
+          name: "Ritesham Shastri",
           role: "Vice President",
           department: "Life Sciences Solutions",
           company: "Rapidcode",

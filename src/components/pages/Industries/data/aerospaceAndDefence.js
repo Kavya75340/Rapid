@@ -49,10 +49,10 @@ export const aerospaceAndDefence = {
   expertsQA: {
     eyebrow: "Industry specialists",
     heading: "Our expertise, your mission",
-    description: "Explore insights from Rapidcode expert, Alex Johnson.",
+    description: "Explore insights from Rapidcode expert, Ritesham Shastri.",
 
     expert: {
-      initials: "VS",
+      initials: "RS",
       name: "Ritesham Shastri",
       role: "Vice President",
       department: "Aerospace & Defence Technology",

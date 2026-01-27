@@ -49,11 +49,11 @@ export const automotive = {
   expertsQA: {
     eyebrow: "Automotive specialists",
     heading: "Our expertise, your road ahead",
-    description: "Explore insights from Rapidcode expert, Alex Johnson.",
+    description: "Explore insights from Rapidcode expert, Ritesham Shastri.",
 
     expert: {
-      initials: "AJ",
-      name: "Alex Johnson",
+      initials: "RS",
+      name: "Ritesham Shastri",
       role: "Vice President",
       department: "Automotive Technology Solutions",
       company: "Rapidcode",

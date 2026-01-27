@@ -47,11 +47,11 @@ export const bankingAndFinance = {
   expertsQA: {
       eyebrow: "Financial services experts",
       heading: "Our insight, your priorities",
-      description: "Read the Q&A with Rapidcode expert, Alex Johnson.",
+      description: "Read the Q&A with Rapidcode expert, Ritesham Shastri.",
 
       expert: {
-          initials: "AJ",
-          name: "Alex Johnson",
+          initials: "RS",
+          name: "Ritesham Shastri",
           role: "Vice President",
           department: "Banking & Finance Solutions",
           company: "Rapidcode",

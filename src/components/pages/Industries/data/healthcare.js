@@ -47,11 +47,11 @@ export const healthcare = {
   expertsQA: {
       eyebrow: "Healthcare experts",
       heading: "Our expertise, your challenges",
-      description: "Read the Q&A with Rapidcode expert, Alex Johnson.",
+      description: "Read the Q&A with Rapidcode expert, Ritesham Shastri.",
 
       expert: {
-          initials: "AJ",
-          name: "Alex Johnson",
+          initials: "RS",
+          name: "Ritesham Shastri",
           role: "Vice President",
           department: "Healthcare Technology Solutions",
           company: "Rapidcode",
