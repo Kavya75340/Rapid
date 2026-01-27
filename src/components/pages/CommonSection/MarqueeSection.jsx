@@ -22,14 +22,14 @@ const MarqueeBanner = () => {
                             <p className="text-black font-extrabold mr-[10px]">
                                 Connect{" "}
                             </p>{" "}
-                            — with an expert to discuss your IT Transformation
+                            — with an expert to advance your IT Transformation
                         </span>
                         <span className="text-white/50">—</span>
                         <span className="flex">
                             <p className="text-black font-extrabold mr-[10px]">
-                                Connect{" "}
+                                Consult{" "}
                             </p>{" "}
-                            — with an expert to discuss your IT Transformation
+                            — an expert to shape your IT Transformation
                         </span>
                         <span className="text-white/50 ml-10">—</span>
                     </a>

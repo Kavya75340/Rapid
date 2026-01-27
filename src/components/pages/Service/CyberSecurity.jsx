@@ -4,7 +4,7 @@ import WhatWeDoSection from "./common/WhatWeDoSection.jsx";
 import HowWeHelpSection from "./common/HowWeHelpSection.jsx";
 import FAQSection from "./common/FAQSection.jsx";
 import JumpToNav from "./common/JumpToNav.jsx";
-import MarqueeBanner from "./common/MarqueeBanner.jsx";
+import MarqueeBanner from "../CommonSection/MarqueeSection.jsx";
 import AwardsSection from "./common/AwardsSection.jsx";
 import InsightsSection from "./common/InsightsSection.jsx";
 import CustomersSection from "./common/CustomersSection.jsx";
