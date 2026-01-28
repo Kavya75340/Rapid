@@ -5,6 +5,7 @@ import BlogIndustryShowcase from "./sections/BlogIndustryShowcase";
 import Featured from "../Featured";
 import BlogFilter from "./sections/BlogFilter";
 import BlogGrid from "./sections/BlogGrid";
+import ExpertiseSection from "../ExpertiseSection";
 
 const BlogPage = () => {
     // const [posts, setPosts] = useState([]);
@@ -39,6 +40,7 @@ const BlogPage = () => {
             <Featured />
             <BlogIndustryShowcase />
             <BlogGrid filters={filters} />
+            <ExpertiseSection />
         </>
     );
 };

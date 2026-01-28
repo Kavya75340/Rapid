@@ -42,7 +42,7 @@ const InsideEdgeSection = () => {
                             </h3>
 
                             <div className="mt-4 flex p-3 w-40 text-primary font-medium text-lg border-2 border-black hover:bg-gray-100 hover:text-white">
-                                Read the article
+                                Explore Solution
                                 {/* <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" /> */}
                             </div>
                         </a>

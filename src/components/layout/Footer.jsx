@@ -4,17 +4,17 @@ import RC_Logo from "../../assets/image/logowithbg.png";
 
 const footerLinks = {
     company: [
+        { title: "Home", href: "/" },
         { title: "About Us", href: "/about" },
-        { title: "Investor Relations", href: "/investors" },
-        { title: "Leadership", href: "/leadership" },
-        { title: "Newsroom", href: "/newsroom" },
-        { title: "Sustainability", href: "/sustainability" },
+        { title: "Careers", href: "/career" },
+        { title: "Contact", href: "/contact" },
     ],
     solutions: [
         { title: "AI-Powered Operations", href: "/service/data-ai" },
-        { title: "Artificial Intelligence", href: "/ai" },
-        { title: "Data Modernization", href: "/data-modernization" },
-        { title: "Digital Transformation", href: "/digital-transformation" },
+        { title: "Cloud", href: "/service/cloud" },
+        { title: "Digital Engineering", href: "/service/digital-e-m" },
+        { title: "Emerging Technology", href: "/service/emerging-tech" },
+        { title: "Strategy", href: "/service/strategy" },
     ],
     industries: [
         { title: "Banking & Finance", href: "/industries/banking" },
@@ -25,16 +25,23 @@ const footerLinks = {
     ],
     resources: [
         { title: "Alliance", href: "/alliance" },
-        { title: "Careers", href: "/career" },
         { title: "Case Studies", href: "/case-studies" },
-        { title: "Contact", href: "/contact" },
         { title: "Insights", href: "/blog" },
+        { title: "White Paper", href: "/whitepaper" },
     ],
 };
 
 const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    {
+        icon: Facebook,
+        href: "https://www.facebook.com/rapidcode",
+        label: "Facebook",
+    },
+    {
+        icon: Linkedin,
+        href: "https://www.linkedin.com/company/rapidcodetechnologies",
+        label: "LinkedIn",
+    },
 ];
 
 const Footer = () => {

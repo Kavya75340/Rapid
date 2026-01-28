@@ -9,6 +9,12 @@ import {
 // import SplitText from "../../SplitText";
 import RC_Logo from "../../assets/image/Logo.png";
 
+const GoogleTranslate = () => {
+    return (
+        <div id="google_translate_element" style={{ display: "none" }}></div>
+    );
+};
+
 const NAV_ITEMS = [
     {
         id: "what-we-do",
@@ -98,6 +104,14 @@ const Logo = () => (
 const CTAButton = ({ isCountryOpen, setIsCountryOpen }) => {
     const [country, setCountry] = useState("India");
 
+    const changeLanguage = (langCode) => {
+        const select = document.querySelector(".goog-te-combo");
+        if (select) {
+            select.value = langCode;
+            select.dispatchEvent(new Event("change"));
+        }
+    };
+
     return (
         <div
             className="relative hidden md:inline-block z-200"
@@ -135,18 +149,21 @@ const CTAButton = ({ isCountryOpen, setIsCountryOpen }) => {
                     <button
                         onClick={() => {
                             setCountry("India");
+                            changeLanguage("en");
                             setIsCountryOpen(false);
                         }}
-                        className="block w-full px-4 py-2 text-left text-sm hover:bg-gray-100"
+                        className="block w-full px-4 py-2 text-left text-sm hover:bg-gray-100 hover:rounded-md"
                     >
                         🇮🇳 India
                     </button>
+
                     <button
                         onClick={() => {
                             setCountry("UAE");
+                            changeLanguage("ar");
                             setIsCountryOpen(false);
                         }}
-                        className="block w-full px-4 py-2 text-left text-sm hover:bg-gray-100"
+                        className="block w-full px-4 py-2 text-left text-sm hover:bg-gray-100 hover:rounded-md"
                     >
                         🇦🇪 UAE
                     </button>
@@ -380,6 +397,7 @@ const Navbar = () => {
                             isCountryOpen={isCountryOpen}
                             setIsCountryOpen={setIsCountryOpen}
                         />
+                        <GoogleTranslate />
                     </div>
                     {/* Mobile Button */}
                     <button
