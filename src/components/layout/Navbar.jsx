@@ -173,6 +173,74 @@ const CTAButton = ({ isCountryOpen, setIsCountryOpen }) => {
     );
 };
 
+const CTAButtonMobile = ({ isCountryOpen, setIsCountryOpen }) => {
+    const [country, setCountry] = useState("India");
+
+    const changeLanguage = (langCode) => {
+        const select = document.querySelector(".goog-te-combo");
+        if (select) {
+            select.value = langCode;
+            select.dispatchEvent(new Event("change"));
+        }
+    };
+
+    return (
+        <div className="relative md:hidden z-100 border p-2 rounded">
+            <button
+                className="inline-flex h-10 items-center justify-center rounded-md bg-white px-0 py-0 text-sm font-medium text-black transition-colors hover:bg-slate-800"
+                onClick={() => setIsCountryOpen(!isCountryOpen)}
+            >
+                {/* Globe */}
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    className="w-5 h-5"
+                >
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="2" y1="12" x2="22" y2="12" />
+                    <path d="M12 2a15.3 15.3 0 0 1 0 20a15.3 15.3 0 0 1 0-20z" />
+                </svg>
+                <svg
+                    className="h-4 w-4"
+                    stroke="currentColor"
+                    viewBox="0 0 20 20"
+                >
+                    <path d="M5.293 7.293L10 10.586l4.707-3.293" />
+                </svg>
+            </button>
+
+            {isCountryOpen && (
+                <div className="absolute right-0 mt-4 w-32 rounded-md border bg-white shadow-md z-50">
+                    <button
+                        onClick={() => {
+                            setCountry("India");
+                            changeLanguage("en");
+                            setIsCountryOpen(false);
+                        }}
+                        className="block w-full px-4 py-2 text-left text-sm hover:bg-gray-100 hover:rounded-md"
+                    >
+                        🇮🇳 India
+                    </button>
+
+                    <button
+                        onClick={() => {
+                            setCountry("UAE");
+                            changeLanguage("ar");
+                            setIsCountryOpen(false);
+                        }}
+                        className="block w-full px-4 py-2 text-left text-sm hover:bg-gray-100 hover:rounded-md"
+                    >
+                        🇦🇪 UAE
+                    </button>
+                </div>
+            )}
+        </div>
+    );
+};
+
 const NavItem = ({ item, isActive, onMouseEnter }) => {
     return (
         <div
@@ -400,12 +468,19 @@ const Navbar = () => {
                         <GoogleTranslate />
                     </div>
                     {/* Mobile Button */}
-                    <button
-                        className="md:hidden border p-2 rounded"
-                        onClick={() => setMobileOpen(true)}
-                    >
-                        ☰
-                    </button>
+                    <div className="flex gap-2 md:hidden">
+                        <button
+                            className="border p-2 rounded px-3"
+                            onClick={() => setMobileOpen(true)}
+                        >
+                            ☰
+                        </button>
+                        <CTAButtonMobile
+                            isCountryOpen={isCountryOpen}
+                            setIsCountryOpen={setIsCountryOpen}
+                        />
+                        <GoogleTranslate />
+                    </div>
                 </header>
             </div>
 
