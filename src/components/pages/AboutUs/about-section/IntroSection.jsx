@@ -7,7 +7,7 @@ const IntroSection = () => {
             <div className="max-w-screen">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                     {/* Left Heading */}
-                    <div className="animate-slide-in-right lg:px-10 lg:pt-20">
+                    <div className="animate-slide-in-right lg:px-10 lg:pt-20 p-10">
                         <h2 className="text-3xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-5">
                             Inspired by our customers
                         </h2>

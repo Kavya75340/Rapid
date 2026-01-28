@@ -6,7 +6,7 @@ const HeroSection = () => {
         <section className="grid lg:grid-cols-2 min-h-[70vh]">
             {/* Left Content */}
             <div className="flex flex-col justify-center section-padding bg-background">
-                <div className="max-w-xl animate-slide-up px-10">
+                <div className="max-w-xl animate-slide-up lg:px-10 p-10">
                     <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6">
                         About us
                     </h1>

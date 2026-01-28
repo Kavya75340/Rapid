@@ -6,7 +6,7 @@ const AccessPoint = () => {
             <div className="Rapidcode-container">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
                     {/* Left Image */}
-                    <div className="p-20">
+                    <div className="lg:p-20 p-0">
                         <img
                             src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
                             alt="Modern innovation center"
@@ -15,7 +15,7 @@ const AccessPoint = () => {
                     </div>
 
                     {/* Right Content */}
-                    <div>
+                    <div className="p-10">
                         <span className="inline-block text-primary text-sm font-semibold uppercase tracking-wider mb-4">
                             Innovation
                         </span>

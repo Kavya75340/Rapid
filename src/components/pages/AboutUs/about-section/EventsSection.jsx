@@ -21,7 +21,7 @@ const EventsSection = () => {
 
                     {/* Access Point */}
 
-                    <div className="bg-gray-50 p-8 lg:p-12">
+                    <div className="bg-gray-50 p-8 lg:p-12 m-5">
                         <a href="#nrf" className="block group p-6">
                             <div className="flex items-start gap-4">
                                 <div className="flex-1">

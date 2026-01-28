@@ -23,12 +23,12 @@ const PeopleSection = () => {
     ];
 
     return (
-        <section className="max-w-screen mx-auto p-10 pl-40 bg-Rapidcode-light-gray">
+        <section className="max-w-screen mx-auto p-10 lg:pl-20 bg-Rapidcode-light-gray overflow-hidden">
             <div className="container-wide">
-                <div className="flex items-center">
+                <div className="flex lg:flex-col flex-row items-center">
                     {/* Left Content */}
                     <div>
-                        <div className="w-[90vh] mb-25">
+                        <div className="w-full mb-25">
                             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
                                 People-powered
                             </h2>
@@ -43,7 +43,7 @@ const PeopleSection = () => {
 
                         {/* Right Image */}
                         <div>
-                            <div className="flex space-x-10">
+                            <div className="flex lg:flex-row flex-col space-x-10">
                                 {links.map((link) => {
                                     const Icon = link.icon;
 
@@ -51,7 +51,7 @@ const PeopleSection = () => {
                                         <a
                                             key={link.title}
                                             href="#"
-                                            className="flex items-start gap-4 group w-100 h-70 p-10 border-b hover:border-gray-500 hover:bg-gray-100"
+                                            className="flex items-start gap-4 group w-full h-70 p-10 border-b hover:border-gray-500 hover:bg-gray-100"
                                         >
                                             <div className="flex-1">
                                                 <h3 className="text-3xl font-medium text-foreground transition-colors flex items-center mb-5">
