@@ -3,23 +3,23 @@ import { Compass, Users, TrendingUp, ArrowRight } from "lucide-react";
 const features = [
     {
         icon: Compass,
-        title: "Find your path",
+        title: "Discover your path",
         description:
-            "Explore diverse career paths and discover opportunities that align with your skills and aspirations.",
+            "Explore a wide range of career paths and find opportunities aligned with your expertise and ambitions.",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
     },
     {
         icon: Users,
-        title: "Join an inclusive culture",
+        title: "Inclusive culture",
         description:
-            "Be part of a workplace where diversity is celebrated and every voice matters.",
+            "Join a workplace where diversity is valued and every perspective is respected.",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop",
     },
     {
         icon: TrendingUp,
-        title: "Learn and thrive",
+        title: "Learn and grow",
         description:
-            "Access world-class training, mentorship programs, and continuous learning opportunities.",
+            "Benefit from world-class learning, mentorship, and continuous development programs designed to help you thrive.",
         image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop",
     },
 ];

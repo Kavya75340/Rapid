@@ -4,28 +4,28 @@ const teams = [
     {
         title: "Mainframe",
         description:
-            "Power the backbone of enterprise computing. Work with cutting-edge mainframe technologies that run the world's most critical systems.",
+            "Enable the core of enterprise computing. Work with advanced mainframe platforms that support the world’s most mission-critical systems.",
         image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
         jobs: 45,
     },
     {
         title: "Cybersecurity",
         description:
-            "Protect organizations from evolving threats. Join our team of security experts defending digital assets worldwide.",
+            "Secure organizations against emerging risks. Join security specialists safeguarding digital assets across global enterprises.",
         image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop",
         jobs: 78,
     },
     {
         title: "IT Consulting",
         description:
-            "Transform businesses through strategic technology guidance. Help clients navigate their digital transformation journey.",
+            "Drive business outcomes through strategic technology advisory. Guide clients across every stage of their digital transformation.",
         image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=400&fit=crop",
         jobs: 120,
     },
     {
         title: "Agentic AI",
         description:
-            "Build the future of artificial intelligence. Create intelligent systems that autonomously solve complex business challenges.",
+            "Shape the next era of artificial intelligence. Develop intelligent systems that autonomously address complex business challenges.",
         image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
         jobs: 35,
     },
@@ -38,11 +38,11 @@ const TeamsSection = () => {
                 {/* Heading */}
                 <div className="text-center mb-12">
                     <h2 className=" text-3xl md:text-4xl lg:text-7xl outline-text font-extrabold text-white">
-                        Join our growing teams
+                        Join our expanding teams
                     </h2>
                     <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-                        Explore opportunities across our specialized practice
-                        areas and find where your expertise can make the biggest
+                        Explore roles across specialized practice areas and
+                        identify where your skills can create the greatest
                         impact.
                     </p>
                 </div>

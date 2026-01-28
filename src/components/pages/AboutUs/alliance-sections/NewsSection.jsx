@@ -50,7 +50,7 @@ const NewsSection = () => {
                             style={{ animationDelay: `${index * 100}ms` }}
                         >
                             {/* Image */}
-                            <div className="relative h-50 overflow-hidden">
+                            <div className="relative h-80 overflow-hidden">
                                 <img
                                     src={item.image}
                                     alt={item.title}
@@ -89,7 +89,7 @@ const NewsSection = () => {
                 {/* Service Partners Link */}
                 <div className="flex justify-between mx-0 mt-16 p-3 py-8 border-t border-b border-border">
                     <p className="text-muted-foreground">
-                        Rapidcode engagement modes with Service Partners
+                        Rapidcode engagement models with Service Partners
                     </p>
                     <a
                         href="#"

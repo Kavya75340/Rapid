@@ -71,11 +71,10 @@ const PartnersSection = () => {
                 </div>
 
                 {/* Partners Grid */}
-                <div className="flex flex-wrap items-center justify-center gap-12 lg:gap-20">
+                <div className="flex flex-wrap items-center justify-center gap-10 lg:gap-20">
                     {industries.map((industry) => (
                         <div
                             key={industry.name}
-                            href="#"
                             className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 align-center flex flex-col gap-4"
                         >
                             <img
@@ -83,7 +82,7 @@ const PartnersSection = () => {
                                 alt={industry.name}
                                 className="h-10 lg:h-20 w-auto object-contain"
                             />
-                            <p className="text-xl">{industry.name}</p>
+                            <p className="text-lg">{industry.name}</p>
                         </div>
                     ))}
                 </div>

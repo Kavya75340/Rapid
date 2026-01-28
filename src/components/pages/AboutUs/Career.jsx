@@ -6,7 +6,7 @@ import JumpToNav from "./career-sections/JumpToNav";
 import LifeSection from "./career-sections/LifeSection";
 import NewsSection from "./career-sections/NewsSection";
 import QuickLinks from "./career-sections/QuickLinks";
-import ResumeSection from "./career-sections/ResumeSection";
+// import ResumeSection from "./career-sections/ResumeSection";
 import TeamsSection from "./career-sections/TeamsSection";
 
 const Career = () => {
@@ -19,7 +19,7 @@ const Career = () => {
             <LifeSection />
             <TeamsSection />
             {/* <AwardsSection /> */}
-            <ResumeSection />
+            {/* <ResumeSection /> */}
             <NewsSection />
             <FAQSection />
         </>

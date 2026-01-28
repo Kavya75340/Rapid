@@ -5,11 +5,12 @@ const CTASection = () => {
         <section className="cta-section bg-gray-300 ">
             <div className="container mx-auto px-6 lg:px-12 py-20 text-center">
                 <h2 className="text-3xl text-blue-500 md:text-4xl font-bold mb-4">
-                    Connect with Rapidcode
+                    Stay Connected
                 </h2>
 
                 <p className="text-xl  opacity-90 mb-8">
-                    Together we can make sure the world thrives.
+                    Together, we help organizations thrive in a rapidly evolving
+                    world.
                 </p>
 
                 <a

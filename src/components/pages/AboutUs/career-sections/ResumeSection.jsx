@@ -7,11 +7,11 @@ const ResumeSection = () => {
                 {/* Heading */}
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
-                        Keep in touch
+                        Stay Connected
                     </h2>
                     <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-                        Stay connected with Rapidcode. Get job alerts or upload
-                        your resume to be considered for future opportunities.
+                        Keep in touch with Rapidcode. Sign up for job alerts or
+                        share your resume for future opportunities
                     </p>
                 </div>
 

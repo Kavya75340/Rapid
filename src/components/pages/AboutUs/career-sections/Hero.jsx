@@ -8,13 +8,13 @@ const Hero = () => {
                     {/* Content */}
                     <div className="flex flex-col justify-center px-6 py-16 lg:py-24 lg:px-12">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black leading-tight">
-                            Join Rapidcode and drive progress with purpose
+                            Join Rapidcode and shape progress with purpose
                         </h1>
 
                         <p className="mt-6 text-lg text-muted-foreground max-w-lg">
-                            Be part of a team that's transforming businesses
-                            worldwide through innovative IT solutions and
-                            consulting excellence.
+                            Become part of a global team helping organizations
+                            evolve through advanced technology and high-impact
+                            consulting.
                         </p>
 
                         <div className="mt-8">

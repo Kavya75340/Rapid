@@ -3,23 +3,23 @@ import { Briefcase, GraduationCap, Heart, ArrowRight } from "lucide-react";
 const links = [
     {
         icon: Briefcase,
-        title: "IT Consulting",
+        title: "Technology & Consulting",
         description:
-            "Explore opportunities in our core consulting practice and help businesses transform their technology landscape.",
+            "Discover opportunities within our core consulting practices and support enterprises as they modernize and transform their technology ecosystems.",
         href: "#consulting",
     },
     {
         icon: GraduationCap,
         title: "Early Careers",
         description:
-            "Jumpstart your career with internships, graduate programs, and entry-level positions designed for emerging talent.",
+            "Launch your professional journey through internships, graduate programs, and entry-level roles built for emerging professionals.t.",
         href: "#early-careers",
     },
     {
         icon: Heart,
         title: "Life at Rapidcode",
         description:
-            "Thrive in a culture that values innovation, diversity, and continuous learning. Discover what makes us unique.",
+            "Succeed in a culture that champions innovation, inclusion, and continuous growth. Experience what sets Rapidcode apart..",
         href: "#life",
     },
 ];
