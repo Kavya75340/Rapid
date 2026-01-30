@@ -30,6 +30,11 @@ import SingleBlog from "../components/pages/Insight/BlogSection/SingleBlog";
 import CaseStudies from "../components/pages/Insight/CaseStudies/CaseStudies";
 import BlogPage from "../components/pages/Insight/BlogSection/BlogPage";
 import WhitePaper from "../components/pages/Insight/WhitePaper/WhitePaper";
+import PrivacyPolicy from "../components/pages/Policy/PrivacyPolicy";
+import TermsAndCondition from "../components/pages/Policy/Terms&Condition";
+import CookiePolicy from "../components/pages/Policy/CookiePolicy";
+import RefundAndCancellationPolicy from "../components/pages/Policy/Refund&CancellationPolicy";
+import Accessibility from "../components/pages/Policy/Accessibilty";
 
 const AppRoutes = () => {
     return (
@@ -90,6 +95,15 @@ const AppRoutes = () => {
             <Route path="/blog/:slug" element={<SingleBlog />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/whitepaper" element={<WhitePaper />} />
+
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/term-condition" element={<TermsAndCondition />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
+            <Route
+                path="/refund-cancellation"
+                element={<RefundAndCancellationPolicy />}
+            />
+            <Route path="/accessibility" element={<Accessibility />} />
         </Routes>
     );
 };

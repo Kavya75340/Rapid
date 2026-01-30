@@ -171,19 +171,29 @@ const Footer = () => {
                         reserved.
                     </p>
 
-                    <div className="flex flex-wrap gap-6">
+                    <div className="flex flex-wrap gap-6 justify-center">
                         {[
-                            "Privacy Policy",
-                            "Terms of Use",
-                            "Cookie Policy",
-                            "Accessibility",
+                            {
+                                title: "Privacy Policy",
+                                link: "/privacy-policy",
+                            },
+                            {
+                                title: "Terms & Condition",
+                                link: "/term-condition",
+                            },
+                            { title: "Cookie Policy", link: "/cookie-policy" },
+                            {
+                                title: "Refund & Cancellation",
+                                link: "/refund-cancellation",
+                            },
+                            { title: "Accessibility", link: "/accessibility" },
                         ].map((item) => (
                             <a
                                 key={item}
-                                href="/"
-                                className="text-sm text-white/60 hover:text-white transition"
+                                href={item.link}
+                                className="text-sm text-white/60 hover:text-white transition mr-7 md:mr-0"
                             >
-                                {item}
+                                {item.title}
                             </a>
                         ))}
                     </div>

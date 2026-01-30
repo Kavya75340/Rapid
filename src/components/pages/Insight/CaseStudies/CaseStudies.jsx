@@ -4,7 +4,6 @@ import CaseStudiesHero from "./section/CaseStudiesHero";
 import IndustryShowcase from "./section/IndustryShowcase";
 import CaseStudiesGrid from "./section/CaseStudiesGrid";
 import Featured from "../Featured";
-import ExpertiseSection from "../ExpertiseSection";
 
 const CaseStudies = () => {
     const [filters, setFilters] = useState({
@@ -19,7 +18,6 @@ const CaseStudies = () => {
             <Featured />
             <IndustryShowcase />
             <CaseStudiesGrid filters={filters} />
-            <ExpertiseSection />
         </>
     );
 };

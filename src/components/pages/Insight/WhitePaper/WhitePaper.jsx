@@ -4,7 +4,6 @@ import WhitePaperFilter from "./section/WhitePaperFilter";
 import WhitePapersHero from "./section/WhitePaperHero";
 import WhitePaperGrid from "./section/WhitePaperGrid";
 import { useState } from "react";
-import ExpertiseSection from "../ExpertiseSection";
 
 const WhitePaper = () => {
     const [filters, setFilters] = useState({
@@ -19,7 +18,6 @@ const WhitePaper = () => {
             <Featured />
             <IndustryShowcase />
             <WhitePaperGrid filters={filters} />
-            <ExpertiseSection />
         </>
     );
 };
