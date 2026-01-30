@@ -189,7 +189,7 @@ const Footer = () => {
                             { title: "Accessibility", link: "/accessibility" },
                         ].map((item) => (
                             <a
-                                key={item}
+                                key={item.title}
                                 href={item.link}
                                 className="text-sm text-white/60 hover:text-white transition mr-7 md:mr-0"
                             >

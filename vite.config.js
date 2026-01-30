@@ -12,9 +12,6 @@ export default defineConfig({
     },
   },
   server: {
-    headers: {
-      "Content-Security-Policy": "script-src 'self'"
-    },
     proxy: {
       "/wp": {
         target: "https://rapidcode.page.gd",
