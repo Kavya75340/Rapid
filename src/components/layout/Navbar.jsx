@@ -68,10 +68,10 @@ const NAV_ITEMS = [
         label: "About Us",
         description: "Learn about our heritage, leadership, and values.",
         links: [
-            { title: "Alliance", href: "/alliance" },
-            { title: "Career", href: "/career" },
-            { title: "Contact Us", href: "/contact" },
-            { title: "Global Presence", href: "/location" },
+            { title: "Alliance", href: "/about/alliance" },
+            { title: "Career", href: "/about/career" },
+            { title: "Contact Us", href: "/about/contact" },
+            { title: "Global Presence", href: "/about/location" },
         ],
     },
     {

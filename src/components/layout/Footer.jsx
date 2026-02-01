@@ -175,18 +175,24 @@ const Footer = () => {
                         {[
                             {
                                 title: "Privacy Policy",
-                                link: "/privacy-policy",
+                                link: "/policy/privacy-policy",
                             },
                             {
                                 title: "Terms & Condition",
-                                link: "/term-condition",
+                                link: "/policy/term-condition",
                             },
-                            { title: "Cookie Policy", link: "/cookie-policy" },
+                            {
+                                title: "Cookie Policy",
+                                link: "/policy/cookie-policy",
+                            },
                             {
                                 title: "Refund & Cancellation",
-                                link: "/refund-cancellation",
+                                link: "/policy/refund-cancellation",
                             },
-                            { title: "Accessibility", link: "/accessibility" },
+                            {
+                                title: "Accessibility",
+                                link: "/policy/accessibility",
+                            },
                         ].map((item) => (
                             <a
                                 key={item.title}
