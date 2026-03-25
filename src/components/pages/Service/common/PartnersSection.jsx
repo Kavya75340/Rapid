@@ -38,7 +38,7 @@ function PartnersSection() {
                     </h2>
 
                     <a
-                        href="/alliance"
+                        href="/about/alliance"
                         className="inline-flex items-center text-primary font-medium hover:text-primary/80 transition-colors"
                     >
                         Learn more about our alliance partners

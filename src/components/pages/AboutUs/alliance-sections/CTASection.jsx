@@ -14,7 +14,7 @@ const CTASection = () => {
                 </p>
 
                 <a
-                    href="/contact"
+                    href="/about/contact"
                     className="inline-block border-3 text-white border-primary-foreground px-8 py-3 font-medium hover:bg-white hover:text-black transition-colors"
                 >
                     Contact us

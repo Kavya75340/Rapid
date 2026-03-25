@@ -106,7 +106,7 @@ const TrendsInsightsSection = () => {
                             knowledge exchange.
                         </p>
                         <a
-                            href="/alliance"
+                            href="/about/alliance"
                             className="inline-flex items-center gap-2 text-[#0070e0] font-medium mt-4 hover:underline"
                         >
                             Learn more

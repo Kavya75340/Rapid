@@ -52,10 +52,10 @@ function HeroSection({ data }) {
                         <h3 className="text-xl xl:text-2xl font-semibold text-white mb-4 leading-snug">
                             {card.title}
                         </h3>
-                        <span className="text-white/70 text-sm font-medium inline-flex items-center group-hover:text-white">
+                        {/* <span className="text-white/70 text-sm font-medium inline-flex items-center group-hover:text-white">
                             {card.linkText}
                             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                        </span>
+                        </span> */}
                     </a>
                 ))}
             </div>

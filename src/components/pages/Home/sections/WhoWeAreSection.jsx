@@ -55,7 +55,7 @@ const WhoWeAreSection = () => {
                                 className="rounded-none"
                                 asChild
                             >
-                                <a href="/alliance">
+                                <a href="/about/alliance">
                                     Awards And Recognition{" "}
                                     <ArrowRight className="w-4 h-4 ml-2" />
                                 </a>
@@ -66,7 +66,7 @@ const WhoWeAreSection = () => {
                                 className="rounded-none"
                                 asChild
                             >
-                                <a href="/career">
+                                <a href="/about/career">
                                     Join Our Team{" "}
                                     <ArrowRight className="w-4 h-4 ml-2" />
                                 </a>

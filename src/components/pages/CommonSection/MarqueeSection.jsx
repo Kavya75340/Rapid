@@ -16,7 +16,7 @@ const MarqueeBanner = () => {
                     <a
                         key={i}
                         className="text-black font-medium mx-10 flex items-center gap-5"
-                        href="/contact"
+                        href="/about/contact"
                     >
                         <span className="flex">
                             <p className="text-black font-extrabold mr-[10px]">

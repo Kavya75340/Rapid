@@ -4,18 +4,12 @@ import heroImage from "@/assets/video/hero4.mp4";
 const heroCards = [
     {
         title: "AI-driven workflow boosts productivity by 40% across industries",
-        link: "Read full blog",
-        href: "/blog/ai-automation",
     },
     {
         title: "How cloud-native systems deliver 99.99% reliability in 2025",
-        link: "Explore insights",
-        href: "/blog/cloud-modernization",
     },
     {
         title: "Data-backed strategies helping brands achieve 25% higher growth",
-        link: "Discover more",
-        href: "/blog/data-analytics",
     },
 ];
 
@@ -103,10 +97,10 @@ const BlogHero = () => {
                             {card.title}
                         </h3>
 
-                        <span className="text-sm text-white/70 inline-flex items-center group-hover:text-white">
+                        {/* <span className="text-sm text-white/70 inline-flex items-center group-hover:text-white">
                             {card.link}
                             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                        </span>
+                        </span> */}
                     </a>
                 ))}
             </div>

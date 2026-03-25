@@ -33,12 +33,6 @@ const NewsSection = () => {
                     <h2 className="text-4xl font-bold">
                         Rapidcode Partner News
                     </h2>
-                    <a
-                        href="#"
-                        className="link-blue font-bold hover:underline hidden md:block"
-                    >
-                        See all articles
-                    </a>
                 </div>
 
                 {/* News Grid */}
@@ -92,7 +86,7 @@ const NewsSection = () => {
                         Rapidcode engagement models with Service Partners
                     </p>
                     <a
-                        href="#"
+                        href="/about/contact"
                         className="link-blue font-medium hover:underline"
                     >
                         See more

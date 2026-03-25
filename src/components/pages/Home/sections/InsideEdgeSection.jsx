@@ -11,7 +11,7 @@ const featuredCards = [
         id: 2,
         category: "The Global Cloud-Native Insights Report",
         title: "The inaugural enterprise customer experience benchmark",
-        href: "/alliance",
+        href: "/about/alliance",
     },
     {
         id: 3,

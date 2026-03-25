@@ -6,8 +6,8 @@ const footerLinks = {
     company: [
         { title: "Home", href: "/" },
         { title: "About Us", href: "/about" },
-        { title: "Careers", href: "/career" },
-        { title: "Contact", href: "/contact" },
+        { title: "Careers", href: "/about/career" },
+        { title: "Contact", href: "/about/contact" },
     ],
     solutions: [
         { title: "AI-Powered Operations", href: "/service/data-ai" },
@@ -24,7 +24,7 @@ const footerLinks = {
         { title: "Travel", href: "/industries/travel" },
     ],
     resources: [
-        { title: "Alliance", href: "/alliance" },
+        { title: "Alliance", href: "/about/alliance" },
         { title: "Case Studies", href: "/case-studies" },
         { title: "Insights", href: "/blog" },
         { title: "White Paper", href: "/whitepaper" },
@@ -178,11 +178,11 @@ const Footer = () => {
                                 link: "/policy/privacy-policy",
                             },
                             {
-                                title: "Terms & Condition",
+                                title: "Terms & Conditions",
                                 link: "/policy/term-condition",
                             },
                             {
-                                title: "Cookie Policy",
+                                title: "Cookies Policy",
                                 link: "/policy/cookie-policy",
                             },
                             {

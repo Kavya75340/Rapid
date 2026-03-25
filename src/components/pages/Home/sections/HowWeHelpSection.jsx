@@ -30,7 +30,7 @@ const helpItems = [
         title: "Empower Hybrid IT Through Strategic Partnerships",
         description:
             "Make confident technology investments through global alliance partnerships that power today’s complex hybrid ecosystems.",
-        cta: { text: "Explore our partners", href: "/alliance" },
+        cta: { text: "Explore our partners", href: "/about/alliance" },
     },
 ];
 

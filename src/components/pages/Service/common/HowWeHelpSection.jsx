@@ -43,10 +43,10 @@ function HowWeHelpSection({ data }) {
                         {data.services.map((service) => (
                             <div
                                 key={service.title}
-                                className="group flex items-start p-6 lg:p-15 bg-card hover:shadow-lg transition-all"
+                                className="group flex text-center items-center p-6 lg:p-15 bg-card hover:shadow-lg transition-all"
                             >
                                 <div className="flex-1">
-                                    <div className="w-20 h-20 rounded-lg bg-primary/10 flex items-center justify-center mr-6">
+                                    <div className="w-20 h-20 rounded-lg bg-primary/10 flex items-center justify-center mx-auto">
                                         <service.icon className="w-15 h-15 text-primary" />
                                     </div>
 
@@ -64,11 +64,11 @@ function HowWeHelpSection({ data }) {
 
                 {/* Difference Tab */}
                 {activeTab === "difference" && (
-                    <div className="grid md:grid-cols-3 gap-8">
+                    <div className="grid md:grid-cols-2 gap-6">
                         {data.differences.map((item) => (
                             <div
                                 key={item.title}
-                                className="text-center hover:shadow-lg p-15"
+                                className="text-center bg-white hover:shadow-lg p-15"
                             >
                                 <div className="w-20 h-20 bg-primary/10 flex items-center justify-center mx-auto mb-6">
                                     <item.icon className="w-15 h-15 text-primary" />

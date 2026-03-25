@@ -4,18 +4,12 @@ import heroImage from "@/assets/video/hero5.mp4"; // adjust path as per your pro
 const heroCards = [
     {
         title: "38% operational cost optimization driven by AI automation",
-        link: "Read white paper",
-        href: "/white-papers/ai-automation",
     },
     {
         title: "Cloud-first transformation delivers 99.99% platform availability",
-        link: "Download white paper",
-        href: "/white-papers/cloud-modernization",
     },
     {
         title: "Advanced analytics enable 25% revenue uplift at scale",
-        link: "Access white paper",
-        href: "/white-papers/data-analytics",
     },
 ];
 
@@ -105,10 +99,10 @@ const WhitePapersHero = () => {
                             {card.title}
                         </h3>
 
-                        <span className="text-sm text-white/70 inline-flex items-center group-hover:text-white">
+                        {/* <span className="text-sm text-white/70 inline-flex items-center group-hover:text-white">
                             {card.link}
                             <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                        </span>
+                        </span> */}
                     </a>
                 ))}
             </div>

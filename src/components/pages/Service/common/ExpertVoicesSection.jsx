@@ -8,9 +8,9 @@ function ExpertVoicesSection() {
                     {/* Image */}
                     <div>
                         <img
-                            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80"
+                            src="/sir.jpeg"
                             alt="Expert portrait"
-                            className="w-full aspect-[4/3] object-cover rounded-lg"
+                            className="w-150 object-cover rounded-lg"
                         />
                     </div>
 

@@ -10,7 +10,7 @@ const SupportBanner = () => {
                 </p>
 
                 <a
-                    href="#support"
+                    href="#contact-form"
                     className="inline-flex items-center gap-2 text-foreground font-medium hover:text-primary transition-colors group"
                 >
                     Go to Rapidcode Support
